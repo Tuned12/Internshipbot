@@ -58,9 +58,20 @@
   "BNP Paribas": 1,
   "La Banque Postale": 1,
   "Morgan Stanley": 1,
-  "Amundi": 1,
   "AXA IM": 1,
   "Capza": 1,
-  "Breega": 1
- }
+  "Breega": 1,
+  "Caisse des Dépôts (Wizbii)": 1
+ },
+ "Crédit Agricole": [
+  "https://groupecreditagricole.jobs/fr/developpez-votre-carriere/votre-profil/stage/",
+  "https://groupecreditagricole.jobs/fr/developpez-votre-carriere/votre-profil/un-stage-de-3eme/"
+ ],
+ "Amundi": [
+  "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-assistant-channel-marketing-etf-italie-h-f_116656.aspx",
+  "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-assistant-specialiste-produit-gestions-actions-h-f_117046.aspx",
+  "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-data-insight-dashboard-assistant-h-f_117044.aspx",
+  "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-en-finance-business-pilotage-et-suivi-commercial-h-f_117045.aspx",
+  "https://www.jobs.amundi.com/offre-de-emploi/emploi-stagiaire-desk-ecm-equity-capital-market-h-f_115906.aspx"
+ ]
 }
