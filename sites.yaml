@@ -16,16 +16,11 @@ locations: ["paris", "île-de-france", "ile-de-france", "la défense", "la defen
  
 sites:
   # ---------- Public institutions ----------
-  - name: Caisse des Dépôts (Wizbii)
-    url: https://www.wizbii.com/company/caisse-des-depots
-    type: browser
-    wait_ms: 7000
-    scrolls: 4
-    require_text: ["paris"]
+  - name: Caisse des Dépôts
+    url: https://caissedesdepots-recrute.fr/offres-emploi/?_type_contrat=stage
+    # To keep only Paris jobs once we see the log, add:  require_text: ["paris"]
   - name: Bpifrance
     url: "https://talents.bpifrance.fr/nos-opportunites/?criteres=stage%7Ccapital-investissement%7Cfinances%7Cimmobilier-et-environnement-de-travail%7Creseau-bancaire%7Caccompagnement%7Cdeal-flow%7Crisques%7Cdeveloppement-durable-rse%7Cinternational"
-  # JobTeaser (their other board) blocked the bot last time, so it's off:
-  # - {name: Caisse des Dépôts (JobTeaser), url: "https://www.jobteaser.com/fr/companies/caisse-des-depots/job-offers", type: browser}
   - name: AMF
     url: https://www.amf-france.org/fr/lamf-recrute
   - name: Agence Française de Développement
