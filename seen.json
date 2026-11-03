@@ -6,14 +6,9 @@
   "https://amf-career.talent-soft.com/offre-de-emploi/emploi-stage-supervision-des-infrastructures-de-marche-h-f_1116.aspx",
   "https://amf-career.talent-soft.com/offre-de-emploi/liste-offres.aspx?changefacet=1&facet_Contract=3104"
  ],
- "Agence Française de Développement": [],
  "Société Générale": [
   "https://careers.societegenerale.com/en/internships-trainee-programs",
   "https://careers.societegenerale.com/en/vie"
- ],
- "Crédit Agricole / CACIB": [
-  "https://groupecreditagricole.jobs/fr/developpez-votre-carriere/votre-profil/stage/",
-  "https://groupecreditagricole.jobs/fr/developpez-votre-carriere/votre-profil/un-stage-de-3eme/"
  ],
  "Natixis / BPCE": [
   "https://recrutement.natixis.com/job/stage-6-mois-analyste-fonds-dinvestissement-immobiliers-f-h",
@@ -26,7 +21,6 @@
   "https://recrutement.natixis.com/job/stage-6-mois-strategiste-esg-f-h",
   "https://recrutement.natixis.com/job/stage-6-mois-xva-quants-pl-explain-f-h"
  ],
- "HSBC": [],
  "Citi": [
   "https://jobs.citi.com/early-career-programs-internships",
   "https://jobs.citi.com/early-career-programs-pre-internships",
@@ -38,19 +32,57 @@
   "https://jobs.citi.com/job/paris/banking-investment-banking-financial-institution-group-placement-analyst-internship-paris-france-20/287/102161080192",
   "https://jobs.citi.com/job/paris/markets-sales-and-trading-off-cycle-internship-paris-france-2027/287/102161050912"
  ],
- "J.P. Morgan": [],
- "Goldman Sachs": [],
+ "J.P. Morgan": [
+  "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210741915",
+  "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210742431",
+  "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210742641",
+  "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210780497",
+  "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210780537",
+  "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210802076",
+  "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210802419"
+ ],
  "Bank of America": [],
  "Rothschild & Co": [
   "https://www.rothschildandco.com/en/careers/students-and-graduates/internships/",
   "https://www.rothschildandco.com/en/careers/students-and-graduates/opportunities/?taxonomy_1155=725&taxonomy_1156=796,740&taxonomy_1168=749,1044,752,748",
   "https://www.rothschildandco.com/en/careers/students-and-graduates/opportunities/?taxonomy_1156=796,740&taxonomy_1168=749,1044,752,748"
  ],
- "Lazard": [],
+ "Lazard": [
+  "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/4226",
+  "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6313",
+  "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6315",
+  "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6316",
+  "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6317",
+  "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6318",
+  "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6320",
+  "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6321",
+  "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6325",
+  "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6326",
+  "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6327",
+  "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6328",
+  "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6329",
+  "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6330",
+  "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6331",
+  "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6332",
+  "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6333",
+  "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6334",
+  "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6335",
+  "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6336",
+  "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6337",
+  "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6338",
+  "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6341",
+  "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6342",
+  "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6347",
+  "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6348",
+  "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6452",
+  "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6461",
+  "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6584",
+  "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6683",
+  "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6687",
+  "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6688",
+  "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6726"
+ ],
  "Oddo BHF": [],
- "BNP Paribas AM": [],
- "Edmond de Rothschild": [],
- "Carmignac": [],
  "BlackRock": [
   "https://careers.blackrock.com/job/london/2027-client-and-product-summer-internship-program-emea/45831/97150826736",
   "https://careers.blackrock.com/job/london/2027-off-cycle-internship-program-emea/45831/97104654800",
@@ -69,7 +101,6 @@
   "https://careers.paipartners.com/o/hr-internshiptalent-development-hr-internship-6-months-starting-january-2027",
   "https://careers.paipartners.com/o/valuation-intern-paris-6-months-starting-january-2027"
  ],
- "Eurazeo": [],
  "Tikehau Capital": [
   "https://tikehau-capital-career.talentview.io/jobs/1dvcvv?source=site_entreprise&utm_source=site_entreprise&coopt=on",
   "https://tikehau-capital-career.talentview.io/jobs/2gm9z8?source=site_entreprise&utm_source=site_entreprise&coopt=on",
@@ -87,27 +118,16 @@
   "https://tikehau-capital-career.talentview.io/jobs/z6kba5?source=site_entreprise&utm_source=site_entreprise&coopt=on"
  ],
  "Antin": [],
- "Cathay Capital": [],
- "Partech": [],
  "Alven": [
   "https://www.welcometothejungle.com/fr/companies/virgil/jobs/bras-droit-ceo-stage_paris_VIRGI_1ANLomd"
  ],
- "Serena": [],
  "Isai": [
   "https://www.isai.vc/early-stage-vc"
  ],
  "_fail": {
-  "Banque de France": 1,
-  "BNP Paribas": 2,
-  "La Banque Postale": 1,
-  "Morgan Stanley": 1,
-  "AXA IM": 1,
-  "Capza": 1,
-  "Breega": 1,
-  "Caisse des Dépôts (Wizbii)": 6,
-  "Goldman Sachs": 1,
-  "Partech": 1,
-  "Isai": 1
+  "BNP Paribas": 3,
+  "Isai": 2,
+  "JobTeaser": 1
  },
  "Crédit Agricole": [
   "https://groupecreditagricole.jobs/fr/developpez-votre-carriere/votre-profil/stage/",
@@ -184,11 +204,9 @@
   "JobTeaser": "https://www.jobteaser.com/en/job-offers?contract=internship&lat=48.853495&lng=2.348391&localized_location=Paris%2C+France&location=France%3A%3A%C3%8Ele-de-France%3A%3AParis%3A%3AParis%3A%3A_bG9jYWxpdHk6ZnI6Y2l0eTpmemVIZnJnZDJQekhETTNCZXE0NlUyL3pFMG89&radius=30&sort=recency",
   "Bpifrance": "https://talents.bpifrance.fr/nos-opportunites/?criteres=stage%7Ccapital-investissement%7Cfinances%7Cimmobilier-et-environnement-de-travail%7Creseau-bancaire%7Caccompagnement%7Cdeal-flow%7Crisques%7Cdeveloppement-durable-rse%7Cinternational",
   "AMF": "https://amf-career.talent-soft.com/offre-de-emploi/liste-offres.aspx",
-  "Agence Française de Développement": "https://www.afd.fr/fr/carrieres",
   "Société Générale": "https://careers.societegenerale.com/en/search?refinementList[jobLocation][0]=FRA&refinementList[jobLocation][1]=FRA_A20_D001&refinementList[jobLocation][2]=FRA_A20_D001_L002&refinementList[jobLocation][3]=FRA_A20_D001_L010&refinementList[jobLocation][4]=FRA_A20_D001_L016&refinementList[jobType][0]=INTERNSHIP&refinementList[jobFunction][0]=UW387&refinementList[jobFunction][1]=ZX468&refinementList[jobFunction][2]=CF100&refinementList[jobFunction][3]=KJ697&refinementList[jobFunction][4]=NP922&refinementList[jobFunction][5]=IM205&refinementList[jobFunction][6]=SU264&refinementList[jobFunction][7]=ET461",
   "Crédit Agricole": "https://groupecreditagricole.jobs/fr/nos-offres/metiers/170463-170462-170469-170466-170464-170465-170479-170472-170473-170470/contrats/579/localisations/79/experiences/580/educations/192393-588-192394/marques/124-5-127-438-136-349-137-134-4-269-401-128-270-350-126-138-122-262-525-267-264-133-373-417-3-263-266-146-352-361-198/",
   "Natixis / BPCE": "https://recrutement.natixis.com/nos-offres-demploi?tax_sector=finance-de-marche,finance-strategie-2,gestion-des-operations-et-support-clientele,risques-controles-et-engagements&tax_contract=stage&tax_place=ile-de-france&tax_brands=aew,natixis-cib-france,natixis-investment-managers,natixis-wealth-management,ostrum-asset-management,vega-investment-solutions&tax_city=paris,charenton-le-pont&tax_country=france&external=false",
-  "HSBC": "https://mycareer.hsbc.com/en_GB/external/SearchJobs/?1017=%5B67223%5D&1017_format=812&1018=%5B67476%5D&1018_format=813&1019=%5B1256803%2C1256567%5D&1019_format=814&1020=%5B79321%2C79322%2C79323%2C79325%2C79327%2C79329%2C79332%2C79335%2C79337%2C79338%2C79339%2C79340%5D&1020_format=815&1021=%5B1248539%2C1248540%2C1248541%2C1248542%5D&1021_format=816&1301=%5B2228257%2C2228256%2C2228254%5D&1301_format=988&1023=%5B1248547%2C1248548%2C1248549%2C1248550%2C4701318%5D&1023_format=913&listFilterMode=1&pipelineRecordsPerPage=10&#anchor__search-jobs",
   "Citi": "https://jobs.citi.com/search-jobs/Paris",
   "J.P. Morgan": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs?keyword=intern&location=Paris%2C+France&locationId=300000036802490&locationLevel=state&mode=location",
   "Bank of America": "https://careers.bankofamerica.com/en-us/job-search?ref=search&start=0&rows=10&search=jobsByLocation&filters=division%3DBusiness+Banking%2Cdivision%3DConsumer+%26+Small+Business%2Cdivision%3DCorporate+Audit+And+Credit+Review%2Cdivision%3DEnterprise+Credit%2Cdivision%3DGlobal+Business+Services%2Cdivision%3DGlobal+Commercial+Banking%2Cdivision%3DGlobal+Corporate+%26+Investment+Banking%2Cdivision%3DGlobal+Markets%2Cdivision%3DGlobal+Payments+Solutions%2Cdivision%3DGlobal+Research+%26+Institute%2Cdivision%3DGlobal+Risk+Management%2Cdivision%3DGlobal+Technology%2Cdivision%3DMerrill+Wealth+Management%2Cdivision%3DMktg+Digital+%26+Specialized+Cons+Client+Solns%2Cdivision%3DPrivate+Bank%2Cdivision%3DThe+CFO+Group&searchstring=Paris%2C+France",
@@ -196,17 +214,11 @@
   "Lazard": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/jobs?lastSelectedFacet=AttributeChar8&location=Paris%2C+Paris%2C++Ile-de-France%2C++France&locationId=100000014583924&locationLevel=city&mode=location&radius=25&radiusUnit=KM&selectedFlexFieldsFacets=%22AttributeChar8%7CAsset+Management%3BFinancial+Advisory%3BCorporate%22&selectedLocationsFacet=300000000798421%3B100000014583877",
   "Oddo BHF": "https://www.oddo-bhf.com/discover-our-jobs/",
   "Amundi": "https://www.jobs.amundi.com/",
-  "BNP Paribas AM": "https://www.bnpparibas-am.com/en/careers/",
-  "Edmond de Rothschild": "https://www.edmond-de-rothschild.com/en/careers",
-  "Carmignac": "https://www.carmignac.com/en/careers",
   "BlackRock": "https://careers.blackrock.com/search-jobs/Paris",
   "Ardian": "https://www.ardian.com/join-us?field_city_job_tref%5B442%5D=442&field_city_job_tref%5B452%5D=452&field_city_job_tref%5B594%5D=594&field_department_term_eref%5B479%5D=479&field_department_term_eref%5B489%5D=489&field_department_term_eref%5B75%5D=75&field_department_term_eref%5B473%5D=473&field_department_term_eref%5B350%5D=350&field_department_term_eref%5B488%5D=488&field_department_term_eref%5B68%5D=68&field_department_term_eref%5B466%5D=466&field_department_term_eref%5B91%5D=91&field_department_term_eref%5B487%5D=487&field_department_term_eref%5B486%5D=486&field_contract_term_eref%5B32%5D=32&field_contract_term_eref%5B463%5D=463&start_date=2027-01-04&end_date=2027-07-01&op=Search&form_build_id=form-PvQLOuwCeiUXiEibG6FDoUjHjmRQ0U-dGMTgvT9h_Ec&form_id=opening_paragraphs_filter#opening-paragraphs-filter",
   "PAI Partners": "https://careers.paipartners.com/?jobs-c88dea0d%5Bcountry%5D%5B%5D=FR&jobs-c88dea0d%5Bcity%5D%5B%5D=Paris&jobs-c88dea0d%5Blanguage%5D%5B%5D=en&jobs-c88dea0d%5Blanguage%5D%5B%5D=fr",
-  "Eurazeo": "https://www.eurazeo.com/en/careers",
   "Tikehau Capital": "https://tikehau-capital-career.talentview.io/en?source=site_entreprise&coopt=on&job_types=Internship&lat=48.8575475&lon=2.3513765&city=Paris&iso_country=FR&place=Paris,+France&distance=50",
   "Antin": "https://antininfrastructurepartners-1655458195.teamtailor.com/jobs",
-  "Cathay Capital": "https://www.cathaycapital.com/careers",
-  "Alven": "https://alven.co/careers",
-  "Serena": "https://www.serena.vc/careers"
+  "Alven": "https://alven.co/careers"
  }
 }
