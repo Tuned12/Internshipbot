@@ -52,7 +52,6 @@
   "https://www.isai.vc/early-stage-vc"
  ],
  "_fail": {
-  "Caisse des Dépôts": 1,
   "Banque de France": 1,
   "BNP Paribas": 1,
   "La Banque Postale": 1,
@@ -90,5 +89,15 @@
   "https://talents.bpifrance.fr/opportunites/charge-de-relation-client-f-h/?id=10200-28",
   "https://talents.bpifrance.fr/opportunites/charge-developpement-export-relations-internationales-f-h/?id=10018-33",
   "https://talents.bpifrance.fr/opportunites/chef-de-projet-f-h/?id=10198-92"
+ ],
+ "Caisse des Dépôts": [
+  "https://caissedesdepots-recrute.fr/offre/stage-6-mois-a-partir-de-janvier-2027-charge-chargee-dinvestissement-entreprises-hf-paris/",
+  "https://caissedesdepots-recrute.fr/offre/stage-6-mois-affaires-europeennes-a-bruxelles/",
+  "https://caissedesdepots-recrute.fr/offre/stage-6-mois-chargee-de-mission-veille-et-prospective-fh-pi0100-paris/",
+  "https://caissedesdepots-recrute.fr/offre/stage-6-mois-juriste-financier-fh-paris/",
+  "https://caissedesdepots-recrute.fr/offre/stage-6m-charge-chargee-dappui-au-deploiement-du-programme-territoires-dia-paris/",
+  "https://caissedesdepots-recrute.fr/offre/stage-6m-charge-chargee-de-mission-strategie-de-la-banque-des-territoires-paris/",
+  "https://caissedesdepots-recrute.fr/offre/stage-6m-data-scientist-junior-paris/",
+  "https://caissedesdepots-recrute.fr/offre/stagiaire-dedie-fusions-acquisitions-et-fonds-dinvestissement-fh-paris/"
  ]
 }
