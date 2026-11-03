@@ -19,7 +19,11 @@ sites:
   - name: Caisse des Dépôts (Wizbii)
     url: https://www.wizbii.com/company/caisse-des-depots
     type: browser
+    wait_ms: 7000
+    scrolls: 4
     require_text: ["paris"]
+  - name: Bpifrance
+    url: "https://talents.bpifrance.fr/nos-opportunites/?criteres=stage%7Ccapital-investissement%7Cfinances%7Cimmobilier-et-environnement-de-travail%7Creseau-bancaire%7Caccompagnement%7Cdeal-flow%7Crisques%7Cdeveloppement-durable-rse%7Cinternational"
   # JobTeaser (their other board) blocked the bot last time, so it's off:
   # - {name: Caisse des Dépôts (JobTeaser), url: "https://www.jobteaser.com/fr/companies/caisse-des-depots/job-offers", type: browser}
   - name: AMF
@@ -87,4 +91,5 @@ sites:
     url: https://www.isai.vc/careers
  
   # ---------- TODO: removed because the address was wrong or blocked. Need a working URL: ----------
-  # BNP Paribas, Banque de France, Bpifrance, La Banque Postale, AXA IM, Capza, Breega, Morgan Stanley
+  # BNP Paribas, Banque de France, La Banque Postale, AXA IM, Capza, Breega, Morgan Stanley
+ 
