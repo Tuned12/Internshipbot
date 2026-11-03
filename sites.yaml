@@ -1,97 +1,124 @@
-include: ['\bstages?\b', '\bstagiaires?\b', '\binterns?\b', '\binternships?\b',
-          '\bsummer analyst', '\bspring (week|insight)', '\btrainee']
-exclude: ['alternan', 'apprenti', 'apprenticeship', 'work[- ]study', 'contrat pro']
-locations: ["paris", "île-de-france", "ile-de-france", "la défense", "la defense", "courbevoie",
-            "puteaux", "nanterre", "issy-les-moulineaux", "boulogne-billancourt", "neuilly",
-            "levallois", "montrouge", "saint-denis"]
+# Internship bot config.
+# Log guide:  [init]/[ok] X: scanned N links, M internships  -> works.   0 internships on a page with
+# lots of links = probably still a generic page -> send me a better (filtered) URL.   [error] = blocked/wrong URL.
+# URLs are already filtered to internships + Paris, so keep them as you copied them from your browser.
  
-# HOW TO READ THE GITHUB LOG:
-#   [init] X: scanned 120 links, 5 internships ...  -> works
-#   [init] X: scanned 40 links, 0 internships       -> loads, but probably a generic page: needs a
-#                                                      better URL (see "HOW TO FIND A GOOD URL" below)
-#   [error] X ...                                   -> site blocked us or the address is wrong
-#
-# HOW TO FIND A GOOD URL for a firm: open its careers site in your browser, search for jobs, filter
-# Contract = Internship/Stage and Location = Paris, then copy the address bar URL and paste it here.
- 
+include:
+- \bstages?\b
+- \bstagiaires?\b
+- \binterns?\b
+- \binternships?\b
+- \bsummer analyst
+- \bspring (week|insight)
+- \btrainee
+exclude:
+- alternan
+- apprenti
+- apprenticeship
+- work[- ]study
+- contrat pro
+locations:
+- paris
+- île-de-france
+- ile-de-france
+- la défense
+- la defense
+- courbevoie
+- puteaux
+- nanterre
+- issy-les-moulineaux
+- boulogne-billancourt
+- neuilly
+- levallois
+- montrouge
+- saint-denis
 sites:
-  # ---------- Public institutions ----------
-  - name: Caisse des Dépôts
-    url: https://caissedesdepots-recrute.fr/offres-emploi/?_type_contrat=stage
-    # To keep only Paris jobs once we see the log, add:  require_text: ["paris"]
-  - name: JobTeaser
-    url: "https://www.jobteaser.com/en/job-offers?contract=internship&lat=48.853495&lng=2.348391&localized_location=Paris%2C+France&location=France%3A%3A%C3%8Ele-de-France%3A%3AParis%3A%3AParis%3A%3A_bG9jYWxpdHk6ZnI6Y2l0eTpmemVIZnJnZDJQekhETTNCZXE0NlUyL3pFMG89&radius=30&sort=recency"
-    type: browser
-    wait_ms: 6000
-    scrolls: 3
-    url_contains: "/job-offers/"   # only links to individual jobs
-    all_match: true                # the URL already filters: internships in Paris
-  - name: Bpifrance
-    url: "https://talents.bpifrance.fr/nos-opportunites/?criteres=stage%7Ccapital-investissement%7Cfinances%7Cimmobilier-et-environnement-de-travail%7Creseau-bancaire%7Caccompagnement%7Cdeal-flow%7Crisques%7Cdeveloppement-durable-rse%7Cinternational"
-  - name: AMF
-    url: https://www.amf-france.org/fr/lamf-recrute
-  - name: Agence Française de Développement
-    url: https://www.afd.fr/fr/carrieres
- 
-  # ---------- Banks ----------
-  - name: Société Générale
-    url: https://careers.societegenerale.com/en/job-offers
-  - name: Crédit Agricole
-    url: https://groupecreditagricole.jobs/fr/nos-offres-emploi/
-  - name: Natixis / BPCE
-    url: https://recrutement.natixis.com/
-  - name: HSBC
-    url: https://mycareer.hsbc.com/en_GB/external/SearchJobs?location=Paris
-  - name: Citi
-    url: https://jobs.citi.com/search-jobs/Paris
-  - name: J.P. Morgan
-    url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs?location=Paris&keyword=intern
-  - name: Goldman Sachs
-    url: https://higher.gs.com/results?LOCATION=Paris
-    type: browser
-  - name: Bank of America
-    url: https://careers.bankofamerica.com/en-us/job-search?country=France
-  - name: Rothschild & Co
-    url: https://www.rothschildandco.com/en/careers/
-  - name: Lazard
-    url: https://www.lazard.com/careers/
-  - name: Oddo BHF
-    url: https://www.oddo-bhf.com/en/careers
- 
-  # ---------- Asset management ----------
-  - name: Amundi                       # real job site found: jobs.amundi.com
-    url: https://www.jobs.amundi.com/
-  - name: BNP Paribas AM
-    url: https://www.bnpparibas-am.com/en/careers/
-  - name: Edmond de Rothschild
-    url: https://www.edmond-de-rothschild.com/en/careers
-  - name: Carmignac
-    url: https://www.carmignac.com/en/careers
-  - name: BlackRock
-    url: https://careers.blackrock.com/search-jobs/Paris
- 
-  # ---------- Private equity / VC ----------
-  - name: Ardian
-    url: https://www.ardian.com/careers
-  - name: PAI Partners
-    url: https://www.paipartners.com/careers/
-  - name: Eurazeo
-    url: https://www.eurazeo.com/en/careers
-  - name: Tikehau Capital
-    url: https://www.tikehaucapital.com/en/careers
-  - name: Antin
-    url: https://www.antin-ip.com/careers
-  - name: Cathay Capital
-    url: https://www.cathaycapital.com/careers
-  - name: Partech
-    url: https://partechpartners.com/careers
-  - name: Alven
-    url: https://alven.co/careers
-  - name: Serena
-    url: https://www.serena.vc/careers
-  - name: Isai
-    url: https://www.isai.vc/careers
- 
-  # ---------- TODO: removed because the address was wrong or blocked. Need a working URL: ----------
-  # BNP Paribas, Banque de France, La Banque Postale, AXA IM, Capza, Breega, Morgan Stanley
+- name: Caisse des Dépôts
+  url: https://caissedesdepots-recrute.fr/offres-emploi/?_type_contrat=stage
+- name: JobTeaser
+  url: https://www.jobteaser.com/en/job-offers?contract=internship&lat=48.853495&lng=2.348391&localized_location=Paris%2C+France&location=France%3A%3A%C3%8Ele-de-France%3A%3AParis%3A%3AParis%3A%3A_bG9jYWxpdHk6ZnI6Y2l0eTpmemVIZnJnZDJQekhETTNCZXE0NlUyL3pFMG89&radius=30&sort=recency
+  type: browser
+  wait_ms: 6000
+  scrolls: 3
+  url_contains: /job-offers/
+  all_match: true
+- name: Bpifrance
+  url: https://talents.bpifrance.fr/nos-opportunites/?criteres=stage%7Ccapital-investissement%7Cfinances%7Cimmobilier-et-environnement-de-travail%7Creseau-bancaire%7Caccompagnement%7Cdeal-flow%7Crisques%7Cdeveloppement-durable-rse%7Cinternational
+- name: AMF
+  url: https://amf-career.talent-soft.com/offre-de-emploi/liste-offres.aspx
+- name: Agence Française de Développement
+  url: https://www.afd.fr/fr/carrieres
+- name: Société Générale
+  url: https://careers.societegenerale.com/en/search?refinementList[jobLocation][0]=FRA&refinementList[jobLocation][1]=FRA_A20_D001&refinementList[jobLocation][2]=FRA_A20_D001_L002&refinementList[jobLocation][3]=FRA_A20_D001_L010&refinementList[jobLocation][4]=FRA_A20_D001_L016&refinementList[jobType][0]=INTERNSHIP&refinementList[jobFunction][0]=UW387&refinementList[jobFunction][1]=ZX468&refinementList[jobFunction][2]=CF100&refinementList[jobFunction][3]=KJ697&refinementList[jobFunction][4]=NP922&refinementList[jobFunction][5]=IM205&refinementList[jobFunction][6]=SU264&refinementList[jobFunction][7]=ET461
+  type: browser
+  wait_ms: 5000
+  scrolls: 3
+- name: BNP Paribas
+  url: https://group.bnpparibas/en/careers/all-job-offers?type=28&domain=161%7C137%7C24%7C145%7C140%7C20%7C143%7C21%7C2128%7C23&rh_entity=96&city=344%7C2447%7C2981&schedule=2324%7C205%7C206%7C207%7C208
+  type: auto
+- name: Crédit Agricole
+  url: https://groupecreditagricole.jobs/fr/nos-offres/metiers/170463-170462-170469-170466-170464-170465-170479-170472-170473-170470/contrats/579/localisations/79/experiences/580/educations/192393-588-192394/marques/124-5-127-438-136-349-137-134-4-269-401-128-270-350-126-138-122-262-525-267-264-133-373-417-3-263-266-146-352-361-198/
+- name: Natixis / BPCE
+  url: https://recrutement.natixis.com/nos-offres-demploi?tax_sector=finance-de-marche,finance-strategie-2,gestion-des-operations-et-support-clientele,risques-controles-et-engagements&tax_contract=stage&tax_place=ile-de-france&tax_brands=aew,natixis-cib-france,natixis-investment-managers,natixis-wealth-management,ostrum-asset-management,vega-investment-solutions&tax_city=paris,charenton-le-pont&tax_country=france&external=false
+- name: HSBC
+  url: https://mycareer.hsbc.com/en_GB/external/SearchJobs/?1017=%5B67223%5D&1017_format=812&1018=%5B67476%5D&1018_format=813&1019=%5B1256803%2C1256567%5D&1019_format=814&1020=%5B79321%2C79322%2C79323%2C79325%2C79327%2C79329%2C79332%2C79335%2C79337%2C79338%2C79339%2C79340%5D&1020_format=815&1021=%5B1248539%2C1248540%2C1248541%2C1248542%5D&1021_format=816&1301=%5B2228257%2C2228256%2C2228254%5D&1301_format=988&1023=%5B1248547%2C1248548%2C1248549%2C1248550%2C4701318%5D&1023_format=913&listFilterMode=1&pipelineRecordsPerPage=10&#anchor__search-jobs
+- name: Citi
+  url: https://jobs.citi.com/search-jobs/Paris
+- name: J.P. Morgan
+  url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs?keyword=intern&location=Paris%2C+France&locationId=300000036802490&locationLevel=state&mode=location
+  type: browser
+  wait_ms: 6000
+  scrolls: 3
+- name: Goldman Sachs
+  url: https://higher.gs.com/results?DIVISION=Asset%20%26%20Wealth%20Management|Compliance%20Division|Global%20Banking%20%26%20Markets|Global%20Investment%20Research%20Division|Risk%20Division|The%20Core%20Management%20%26%20Strategy&EXPERIENCE_LEVEL=Analyst&JOB_FUNCTION=Analytics%20%26%20Reporting|Asset%20Management|Asset%20Servicing|Bank%20Account%20Management|Banker%20-%20CSG|Banker%20-%20Industry%2FCountry%20Coverage|Banking%20Analysis|Billing%20-%20Invoicing%2C%20Fees%20%26%20Commissions|Business%20Audit|Business%20Development%20Professional|Business%20Unit%20Compliance|Business%20Unit%20COO|Business%20Unit%20Leadership|Business%20Unit%20Legal|Client%20Onboarding%20%26%20Configuration|Client%20Relationship%20Management|Client%20Reporting|Client%20Services%20-%20Operations|Client%20Services%20-%20Prime|Confirmations|COO|Corporate%20Governance|Corporate%20Tax%20Accounting%2C%20Compliance%20%26%20Reporting|Credit%20Risk|Digital%20Operations%20-%20Management|Digital%20Operations%20-%20Specialist|Divisional%20CFO|Divisional%20Leadership|Financial%20Accounting|Financial%20Crime%20Controls|Financial%20Risk|Funding%20%26%20Capital%20Planning|Investing%20%26%20Portfolio%20Management%20-%20Private|Investing%20%26%20Portfolio%20Management%20-%20Public|Investor%20Relations|Liquidity%20Execution|Liquidity%20Management|Liquidity%20Risk|Loan%20Management%20%26%20Due%20Diligence|Market%20Risk|Marketing|Matching%2C%20Shaping%2C%20Allocation|Model%20Risk|Operational%20Risk|Platform%20Management|Portfolio%20Construction|Portfolio%20Management|Procurement%20%2F%20Purchasing|Product%20Finance|Product%20Management|Public%20Investing%20Research|Project%20Management|Quantitative%20Engineering|Real%20Estate%20Strategy|Regional%20Business%20Partner|Regional%20Leadership|Regional%20Legal|Regulatory%20Relations|Regulatory%20Reporting%20-%20Trade%20Level|Research%20%26%20Portfolio%20Management%20Support|Research%20Analyst|Risk%20Governance|Sales%20Strats|Sales%20Support|Sales|Sales%20Trading|Trade%20Processing|Trading&LOCATION=Paris&SKILLSET=Audit%20%28Finance%20and%20Technology%29|Business%20Finance%2C%20Budgeting%2C%20and%20Forecasting|Business%20Operations|Client%20Services%20and%20Sales%20Solutions|Compliance|Financial%20Accounting%2FFinancial%20Planning|Data%20Analytics%20and%20Business%20Intelligence|Credit%20Risk%20and%20Analysis|Fund%20Accounting|Investing|Investment%20Banking%2FFinancial%20Modeling|Investment%20Research|Investor%20Relations|Legal|Risk%20Management|Trading%2FQuantitative%20Modeling|Trade%20and%20Transaction%20Management&page=1&sort=RELEVANCE
+  type: browser
+  wait_ms: 6000
+  scrolls: 3
+- name: Bank of America
+  url: https://careers.bankofamerica.com/en-us/job-search?ref=search&start=0&rows=10&search=jobsByLocation&filters=division%3DBusiness+Banking%2Cdivision%3DConsumer+%26+Small+Business%2Cdivision%3DCorporate+Audit+And+Credit+Review%2Cdivision%3DEnterprise+Credit%2Cdivision%3DGlobal+Business+Services%2Cdivision%3DGlobal+Commercial+Banking%2Cdivision%3DGlobal+Corporate+%26+Investment+Banking%2Cdivision%3DGlobal+Markets%2Cdivision%3DGlobal+Payments+Solutions%2Cdivision%3DGlobal+Research+%26+Institute%2Cdivision%3DGlobal+Risk+Management%2Cdivision%3DGlobal+Technology%2Cdivision%3DMerrill+Wealth+Management%2Cdivision%3DMktg+Digital+%26+Specialized+Cons+Client+Solns%2Cdivision%3DPrivate+Bank%2Cdivision%3DThe+CFO+Group&searchstring=Paris%2C+France
+- name: Rothschild & Co
+  url: https://www.rothschildandco.com/en/careers/students-and-graduates/opportunities/?taxonomy_1155=725&taxonomy_1156=796%2C740&taxonomy_1168=749%2C1044%2C752%2C748
+- name: Lazard
+  url: https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/jobs?lastSelectedFacet=AttributeChar8&location=Paris%2C+Paris%2C++Ile-de-France%2C++France&locationId=100000014583924&locationLevel=city&mode=location&radius=25&radiusUnit=KM&selectedFlexFieldsFacets=%22AttributeChar8%7CAsset+Management%3BFinancial+Advisory%3BCorporate%22&selectedLocationsFacet=300000000798421%3B100000014583877
+  type: browser
+  wait_ms: 6000
+  scrolls: 3
+- name: Oddo BHF
+  url: https://www.oddo-bhf.com/discover-our-jobs/
+- name: Amundi
+  url: https://www.jobs.amundi.com/
+- name: BNP Paribas AM
+  url: https://www.bnpparibas-am.com/en/careers/
+- name: Edmond de Rothschild
+  url: https://www.edmond-de-rothschild.com/en/careers
+- name: Carmignac
+  url: https://www.carmignac.com/en/careers
+- name: BlackRock
+  url: https://careers.blackrock.com/search-jobs/Paris
+- name: Ardian
+  url: https://www.ardian.com/join-us?field_city_job_tref%5B442%5D=442&field_city_job_tref%5B452%5D=452&field_city_job_tref%5B594%5D=594&field_department_term_eref%5B479%5D=479&field_department_term_eref%5B489%5D=489&field_department_term_eref%5B75%5D=75&field_department_term_eref%5B473%5D=473&field_department_term_eref%5B350%5D=350&field_department_term_eref%5B488%5D=488&field_department_term_eref%5B68%5D=68&field_department_term_eref%5B466%5D=466&field_department_term_eref%5B91%5D=91&field_department_term_eref%5B487%5D=487&field_department_term_eref%5B486%5D=486&field_contract_term_eref%5B32%5D=32&field_contract_term_eref%5B463%5D=463&start_date=2027-01-04&end_date=2027-07-01&op=Search&form_build_id=form-PvQLOuwCeiUXiEibG6FDoUjHjmRQ0U-dGMTgvT9h_Ec&form_id=opening_paragraphs_filter#opening-paragraphs-filter
+- name: PAI Partners
+  url: https://careers.paipartners.com/?jobs-c88dea0d%5Bcountry%5D%5B%5D=FR&jobs-c88dea0d%5Bcity%5D%5B%5D=Paris&jobs-c88dea0d%5Blanguage%5D%5B%5D=en&jobs-c88dea0d%5Blanguage%5D%5B%5D=fr
+- name: Eurazeo
+  url: https://www.eurazeo.com/en/careers
+- name: Tikehau Capital
+  url: https://tikehau-capital-career.talentview.io/en?source=site_entreprise&coopt=on&job_types=Internship&lat=48.8575475&lon=2.3513765&city=Paris&iso_country=FR&place=Paris,+France&distance=50
+  type: browser
+  wait_ms: 5000
+  scrolls: 3
+- name: Antin
+  url: https://antininfrastructurepartners-1655458195.teamtailor.com/jobs
+- name: Cathay Capital
+  url: https://www.cathaycapital.com/careers
+- name: Partech
+  url: https://partechpartners.com/careers
+- name: Alven
+  url: https://alven.co/careers
+- name: Serena
+  url: https://www.serena.vc/careers
+- name: Isai
+  url: https://isai.welcomekit.co/?departments%5B0%5D=Business&departments%5B1%5D=Legal%20-%20Finance&offices%5B0%5D=Paris&contract_types%5B0%5D=Internship&companies%5B0%5D=Evaneos&companies%5B1%5D=Mercateam
+  type: browser
+  wait_ms: 5000
+  scrolls: 3
  
