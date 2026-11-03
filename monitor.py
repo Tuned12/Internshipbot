@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """Watches career pages for new internship postings (stage / internship / intern...)
 and pings you. Skips alternance. Prefers Paris.
  
@@ -173,8 +174,10 @@ def compile_cfg(config):
 def judge(job, site, cfg):
     """Returns None (ignore) or a flag string ('' = clean match)."""
     title = job["title"]
-    if not any(r.search(title) for r in cfg["include"]):
-        return None
+    if site.get("url_contains") and site["url_contains"] not in job["url"]:
+        return None                      # only real job-card links, not menus/footers
+    if not site.get("all_match") and not any(r.search(title) for r in cfg["include"]):
+        return None                      # (all_match = the page URL is already filtered to internships)
     flag = ""
     if any(r.search(title) for r in cfg["exclude"]):
         if not BOTH.search(title):
