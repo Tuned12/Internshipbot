@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """Watches career pages for new internship postings (stage / internship / intern...)
 and pings you. Skips alternance. Prefers Paris.
  
@@ -206,7 +205,8 @@ def push(title, body, url=None):
         requests.post(f"https://ntfy.sh/{topic}", data=text.encode("utf-8"), headers=h, timeout=15)
     hook = os.getenv("DISCORD_WEBHOOK")
     if hook:
-        requests.post(hook, json={"content": f"**{title}**\n{body}\n{url or ''}"[:1900]}, timeout=15)
+        parts = [f"**{title}**", body, url or ""]
+        requests.post(hook, json={"content": "\n".join(x for x in parts if x)[:1900]}, timeout=15)
  
  
 def notify_new(new_items):
