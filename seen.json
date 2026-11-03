@@ -59,17 +59,20 @@
   "AXA IM": 1,
   "Capza": 1,
   "Breega": 1,
-  "Caisse des Dépôts (Wizbii)": 6
+  "Caisse des Dépôts (Wizbii)": 6,
+  "JobTeaser": 1
  },
  "Crédit Agricole": [
   "https://groupecreditagricole.jobs/fr/developpez-votre-carriere/votre-profil/stage/",
   "https://groupecreditagricole.jobs/fr/developpez-votre-carriere/votre-profil/un-stage-de-3eme/"
  ],
  "Amundi": [
+  "https://www.jobs.amundi.com/offre-de-emploi/emploi-fund-analyst-multi-asset-solutions-intern-m-f_117086.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-intern-legal-officer-h-f_117066.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-assistant-channel-marketing-etf-italie-h-f_116656.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-assistant-securities-lending-trading-h-f_116870.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-assistant-specialiste-produit-gestions-actions-h-f_117046.aspx",
+  "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-carbon-integration-analyst-h-f_115296.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-charge-de-reponses-aux-appels-d-offres-stage-h-f_117084.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-compliance-officer-h-f_117067.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-data-insight-dashboard-assistant-h-f_117044.aspx",
@@ -89,6 +92,7 @@
   "https://talents.bpifrance.fr/opportunites/analyste-risques-recouvrement-f-h/?id=10035-33",
   "https://talents.bpifrance.fr/opportunites/charge-d-affaires-international-junior-f-h/?id=10050-91",
   "https://talents.bpifrance.fr/opportunites/charge-d-etudes-f-h-14/?id=10133-40",
+  "https://talents.bpifrance.fr/opportunites/charge-d-etudes-f-h-4/?id=10152-43",
   "https://talents.bpifrance.fr/opportunites/charge-de-developpement-du-fonds-bpifrance-defense-f-h/?id=10237-42",
   "https://talents.bpifrance.fr/opportunites/charge-de-mission-controle-amp-eligibilite-f-h/?id=10023-46",
   "https://talents.bpifrance.fr/opportunites/charge-de-relation-client-f-h/?id=10200-28",
