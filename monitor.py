@@ -199,9 +199,11 @@ def push(title, body, url=None):
     topic = os.getenv("NTFY_TOPIC")
     if topic:
         h = {"Title": title.encode("utf-8"), "Tags": "briefcase"}
+        text = body
         if url:
-            h["Click"] = url
-        requests.post(f"https://ntfy.sh/{topic}", data=body.encode("utf-8"), headers=h, timeout=15)
+            h["Click"] = url          # tapping the notification opens the job directly
+            text = f"{body}\n{url}".strip()   # and the link is also written in the message
+        requests.post(f"https://ntfy.sh/{topic}", data=text.encode("utf-8"), headers=h, timeout=15)
     hook = os.getenv("DISCORD_WEBHOOK")
     if hook:
         requests.post(hook, json={"content": f"**{title}**\n{body}\n{url or ''}"[:1900]}, timeout=15)
@@ -210,7 +212,8 @@ def push(title, body, url=None):
 def notify_new(new_items):
     if len(new_items) <= MAX_INDIVIDUAL_PUSHES:
         for site, title, url, flag in new_items:
-            push(f"New stage: {site}", title + flag, url)
+            company = re.sub(r"\s*\(.*?\)", "", site).strip()   # "CDC (Wizbii)" -> "CDC"
+            push(f"New stage {company}, {title}{flag}", "", url)
     else:  # avoid blowing up your phone: one digest per site
         by_site = {}
         for site, title, url, flag in new_items:
