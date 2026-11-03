@@ -30,7 +30,12 @@ jobs:
         run: |
           git config user.name "bot"
           git config user.email "bot@users.noreply.github.com"
-          git pull --rebase -q || true
           git add seen.json
-          git diff --cached --quiet || (git commit -qm "update seen" && git push)
+          git diff --cached --quiet && exit 0
+          git commit -qm "update seen"
+          for i in 1 2 3 4 5; do
+            git pull --rebase -X theirs -q && git push -q && exit 0
+            sleep 4
+          done
+          echo "Could not save state after 5 tries"; exit 1
  
