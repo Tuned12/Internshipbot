@@ -1,49 +1,39 @@
-# Titles must match one of these (whole words, so "Internal" / "International" don't count)
 include: ['\bstages?\b', '\bstagiaires?\b', '\binterns?\b', '\binternships?\b',
           '\bsummer analyst', '\bspring (week|insight)', '\btrainee']
-# Dropped (unless the title says "stage OR alternance", then it's kept and flagged)
 exclude: ['alternan', 'apprenti', 'apprenticeship', 'work[- ]study', 'contrat pro']
-
-# Where the job has to be. Jobs with no location info are kept.
-# For scraped pages, add `require_text: ["paris"]` on a site to enforce it.
 locations: ["paris", "île-de-france", "ile-de-france", "la défense", "la defense", "courbevoie",
             "puteaux", "nanterre", "issy-les-moulineaux", "boulogne-billancourt", "neuilly",
             "levallois", "montrouge", "saint-denis"]
-
-# HOW TO USE: the URLs below are best-effort starting points that I could NOT test from my
-# environment. Run `python monitor.py --test` and fix any site that errors / shows 0 links.
-# BEST PRACTICE for the big bank portals: open their job search in your browser, filter
-# "Internship/Stage" + "Paris", and paste THAT results URL as `url`. Then page 1 = newest jobs.
+ 
+# HOW TO READ THE GITHUB LOG:
+#   [init] X: scanned 120 links, 5 internships ...  -> works
+#   [init] X: scanned 40 links, 0 internships       -> loads, but probably a generic page: needs a
+#                                                      better URL (see "HOW TO FIND A GOOD URL" below)
+#   [error] X ...                                   -> site blocked us or the address is wrong
 #
-# type: auto (default) = plain request, falls back to a headless browser for JS-heavy pages
-#       greenhouse / lever / smartrecruiters  -> token: <company slug>   (most reliable)
-#       workday -> url: https://<tenant>.wdN.myworkdayjobs.com/<board>   (reliable)
-
+# HOW TO FIND A GOOD URL for a firm: open its careers site in your browser, search for jobs, filter
+# Contract = Internship/Stage and Location = Paris, then copy the address bar URL and paste it here.
+ 
 sites:
-  # ---------- Public institutions / state finance ----------
-  - name: Caisse des Dépôts            # verified page: JobTeaser lists CDC stage/alternance offers
-    url: https://www.jobteaser.com/fr/companies/caisse-des-depots/job-offers
+  # ---------- Public institutions ----------
+  - name: Caisse des Dépôts (Wizbii)
+    url: https://www.wizbii.com/company/caisse-des-depots
+    type: browser
     require_text: ["paris"]
-  - name: Banque de France
-    url: https://www.banque-france.fr/fr/carrieres
-  - name: Bpifrance
-    url: https://recrutement.bpifrance.fr/
+  # JobTeaser (their other board) blocked the bot last time, so it's off:
+  # - {name: Caisse des Dépôts (JobTeaser), url: "https://www.jobteaser.com/fr/companies/caisse-des-depots/job-offers", type: browser}
   - name: AMF
     url: https://www.amf-france.org/fr/lamf-recrute
   - name: Agence Française de Développement
     url: https://www.afd.fr/fr/carrieres
-
+ 
   # ---------- Banks ----------
-  - name: BNP Paribas
-    url: https://group.bnpparibas/emploi-carriere/toutes-offres-emploi   # replace w/ filtered URL
   - name: Société Générale
-    url: https://careers.societegenerale.com/en/job-offers              # replace w/ filtered URL
-  - name: Crédit Agricole / CACIB
+    url: https://careers.societegenerale.com/en/job-offers
+  - name: Crédit Agricole
     url: https://groupecreditagricole.jobs/fr/nos-offres-emploi/
   - name: Natixis / BPCE
     url: https://recrutement.natixis.com/
-  - name: La Banque Postale
-    url: https://recrutement.labanquepostale.fr/
   - name: HSBC
     url: https://mycareer.hsbc.com/en_GB/external/SearchJobs?location=Paris
   - name: Citi
@@ -53,9 +43,6 @@ sites:
   - name: Goldman Sachs
     url: https://higher.gs.com/results?LOCATION=Paris
     type: browser
-  - name: Morgan Stanley
-    url: https://www.morganstanley.com/careers/career-opportunities-search
-    type: browser
   - name: Bank of America
     url: https://careers.bankofamerica.com/en-us/job-search?country=France
   - name: Rothschild & Co
@@ -64,12 +51,10 @@ sites:
     url: https://www.lazard.com/careers/
   - name: Oddo BHF
     url: https://www.oddo-bhf.com/en/careers
-
+ 
   # ---------- Asset management ----------
-  - name: Amundi
-    url: https://careers.amundi.com/
-  - name: AXA IM
-    url: https://careers.axa-im.com/
+  - name: Amundi                       # real job site found: jobs.amundi.com
+    url: https://www.jobs.amundi.com/
   - name: BNP Paribas AM
     url: https://www.bnpparibas-am.com/en/careers/
   - name: Edmond de Rothschild
@@ -78,8 +63,8 @@ sites:
     url: https://www.carmignac.com/en/careers
   - name: BlackRock
     url: https://careers.blackrock.com/search-jobs/Paris
-
-  # ---------- Private equity / private markets ----------
+ 
+  # ---------- Private equity / VC ----------
   - name: Ardian
     url: https://www.ardian.com/careers
   - name: PAI Partners
@@ -90,12 +75,8 @@ sites:
     url: https://www.tikehaucapital.com/en/careers
   - name: Antin
     url: https://www.antin-ip.com/careers
-  - name: Capza
-    url: https://www.capza.eu/en/careers
   - name: Cathay Capital
     url: https://www.cathaycapital.com/careers
-
-  # ---------- Venture capital ----------
   - name: Partech
     url: https://partechpartners.com/careers
   - name: Alven
@@ -104,10 +85,6 @@ sites:
     url: https://www.serena.vc/careers
   - name: Isai
     url: https://www.isai.vc/careers
-  - name: Breega
-    url: https://www.breega.com/careers
-
-  # Ready-made examples for the API types (swap in if a firm uses one):
-  # - {name: SomeFirm, type: greenhouse, token: somefirm}
-  # - {name: SomeFirm, type: lever, token: somefirm}
-  # - {name: SomeFirm, type: workday, url: "https://somefirm.wd3.myworkdayjobs.com/en-US/Careers"}
+ 
+  # ---------- TODO: removed because the address was wrong or blocked. Need a working URL: ----------
+  # BNP Paribas, Banque de France, Bpifrance, La Banque Postale, AXA IM, Capza, Breega, Morgan Stanley
