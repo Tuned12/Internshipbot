@@ -227,17 +227,49 @@ def notify_new(new_items):
  
 # ---------- main ----------
  
+def evaluate(jobs, site, cfg):
+    matches, flags = {}, {}
+    for j in jobs:
+        f = judge(j, site, cfg)
+        if f is not None:
+            matches[j["url"]] = j["title"]
+            flags[j["url"]] = f
+    return matches, flags
+ 
+ 
+def get_jobs(site, cfg):
+    stype = site.get("type", "auto")
+    if stype != "auto":
+        return FETCHERS[stype](site)
+    # auto: fast plain request first; if it shows no internships (JS-built page), retry in a real browser
+    jobs, err = [], None
+    try:
+        jobs = fetch_html(site)
+    except Exception as e:
+        err = e
+    if not evaluate(jobs, site, cfg)[0]:
+        try:
+            jobs = list({j["url"]: j for j in jobs + fetch_browser(site)}.values())
+        except Exception as e:
+            err = err or e
+    if not jobs and err:
+        raise err
+    return jobs
+ 
+ 
 def run(test=False):
     config = yaml.safe_load(CONFIG_FILE.read_text())
     cfg = compile_cfg(config)
     state = {} if test or not STATE_FILE.exists() else json.loads(STATE_FILE.read_text())
     fails = state.get("_fail", {})
+    migrating = "_urls" not in state          # first run of this version: stay quiet, just memorize
+    urls = state.get("_urls", {})
     new_items = []
  
     for site in config["sites"]:
         name = site["name"]
         try:
-            jobs = FETCHERS[site.get("type", "auto")](site)
+            jobs = get_jobs(site, cfg)
             if site.get("type", "auto") in SCRAPED_TYPES and len(jobs) < 3:
                 raise RuntimeError(f"only {len(jobs)} links found (page blocked or needs a better URL)")
         except Exception as e:
@@ -247,12 +279,7 @@ def run(test=False):
                 push("Bot: site not working", f"{name} keeps failing: {e}")
             continue
         fails.pop(name, None)
- 
-        matches, flags = {}, {}
-        for j in jobs:
-            flag = judge(j, site, cfg)
-            if flag is not None:
-                matches[j["url"]] = j["title"]; flags[j["url"]] = flag
+        matches, flags = evaluate(jobs, site, cfg)
  
         if test:
             print(f"\n== {name} [{site.get('type', 'auto')}]: {len(jobs)} links scanned, {len(matches)} internships")
@@ -260,18 +287,25 @@ def run(test=False):
                 print(f"   - {t}{flags[u]}\n     {u}")
             continue
  
-        seen = set(state.get(name, []))
-        if name not in state:
+        # new site, or its URL changed -> memorize silently instead of alerting about everything
+        reseed = migrating or name not in state or urls.get(name) != site["url"]
+        seen = set() if reseed else set(state.get(name, []))
+        if reseed:
             print(f"[init] {name}: scanned {len(jobs)} links, {len(matches)} internships already open (no alert)")
+            if not matches:  # help debugging: show what kind of links the page gave us
+                for j in sorted(jobs, key=lambda j: -len(j["title"]))[:6]:
+                    print(f"   [sample] {j['title'][:70]} | {j['url'][:110]}")
         else:
             fresh = [(name, t, u, flags[u]) for u, t in matches.items() if u not in seen]
             new_items += fresh
             print(f"[ok] {name}: scanned {len(jobs)} links, {len(matches)} internships, {len(fresh)} new")
+        urls[name] = site["url"]
         state[name] = sorted(seen | set(matches))
  
     close_browser()
     if not test:
         state["_fail"] = fails
+        state["_urls"] = urls
         STATE_FILE.write_text(json.dumps(state, indent=1, ensure_ascii=False))
         if new_items:
             notify_new(new_items)
