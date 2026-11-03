@@ -1,0 +1,66 @@
+{
+ "AMF": [
+  "https://amf-career.talent-soft.com/offre-de-emploi/liste-toutes-offres.aspx?lcid=1036&facet_JobDescription_Contract=3104"
+ ],
+ "Agence Française de Développement": [],
+ "Société Générale": [],
+ "Crédit Agricole / CACIB": [
+  "https://groupecreditagricole.jobs/fr/developpez-votre-carriere/votre-profil/stage/",
+  "https://groupecreditagricole.jobs/fr/developpez-votre-carriere/votre-profil/un-stage-de-3eme/"
+ ],
+ "Natixis / BPCE": [],
+ "HSBC": [],
+ "Citi": [
+  "https://jobs.citi.com/early-career-programs-internships",
+  "https://jobs.citi.com/early-career-programs-pre-internships",
+  "https://jobs.citi.com/job/paris/banking-corporate-banking-financial-institutions-group-fig-placement-analyst-internship-paris-franc/287/102161080304",
+  "https://jobs.citi.com/job/paris/banking-corporate-banking-placement-analyst-internship-paris-france-2027/287/102161080208",
+  "https://jobs.citi.com/job/paris/banking-corporate-banking-relationship-analyst-placement-analyst-internship-paris-france-2027/287/102161080272",
+  "https://jobs.citi.com/job/paris/banking-financing-debt-capital-markets-placement-analyst-internship-paris-france-2027/287/102161080224",
+  "https://jobs.citi.com/job/paris/banking-financing-equity-capital-markets-placement-analyst-internship-paris-france-2027/287/102161079184",
+  "https://jobs.citi.com/job/paris/banking-investment-banking-financial-institution-group-placement-analyst-internship-paris-france-20/287/102161080192",
+  "https://jobs.citi.com/job/paris/markets-sales-and-trading-off-cycle-internship-paris-france-2027/287/102161050912"
+ ],
+ "J.P. Morgan": [],
+ "Goldman Sachs": [],
+ "Bank of America": [],
+ "Rothschild & Co": [
+  "https://www.rothschildandco.com/en/careers/students-and-graduates/internships/"
+ ],
+ "Lazard": [],
+ "Oddo BHF": [],
+ "BNP Paribas AM": [],
+ "Edmond de Rothschild": [],
+ "Carmignac": [],
+ "BlackRock": [
+  "https://careers.blackrock.com/job/london/2027-client-and-product-summer-internship-program-emea/45831/97150826736",
+  "https://careers.blackrock.com/job/london/2027-off-cycle-internship-program-emea/45831/97104654800",
+  "https://careers.blackrock.com/job/london/2027-summer-internship-program-emea/45831/97150826672"
+ ],
+ "Ardian": [],
+ "PAI Partners": [],
+ "Eurazeo": [],
+ "Tikehau Capital": [],
+ "Antin": [],
+ "Cathay Capital": [],
+ "Partech": [],
+ "Alven": [
+  "https://www.welcometothejungle.com/fr/companies/virgil/jobs/bras-droit-ceo-stage_paris_VIRGI_1ANLomd"
+ ],
+ "Serena": [],
+ "Isai": [
+  "https://www.isai.vc/early-stage-vc"
+ ],
+ "_fail": {
+  "Caisse des Dépôts": 1,
+  "Banque de France": 1,
+  "Bpifrance": 1,
+  "BNP Paribas": 1,
+  "La Banque Postale": 1,
+  "Morgan Stanley": 1,
+  "Amundi": 1,
+  "AXA IM": 1,
+  "Capza": 1,
+  "Breega": 1
+ }
+}
