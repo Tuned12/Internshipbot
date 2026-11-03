@@ -93,6 +93,30 @@ def fetch_workday(site):
     return list(jobs.values())
  
  
+def fetch_oracle(site):
+    """Oracle Recruiting Cloud (J.P. Morgan, Lazard...): read the site's JSON API instead of rendering it."""
+    from urllib.parse import parse_qs
+    u = urlparse(site["url"])
+    q = parse_qs(u.query)
+    host = u.netloc
+    siteno = re.search(r"/sites/([^/?#]+)", u.path).group(1)
+    finder = f"findReqs;siteNumber={siteno},limit=50,sortBy=POSTING_DATES_DESC"
+    kw = site.get("keyword") or (q.get("keyword") or [""])[0]
+    if kw:
+        finder += f",keyword={kw}"
+    loc = (q.get("locationId") or [""])[0]
+    if loc:
+        finder += f",locationId={loc}"
+    r = requests.get(f"https://{host}/hcmRestApi/resources/latest/recruitingCEJobRequisitions",
+                     params={"onlyData": "true", "expand": "requisitionList.secondaryLocations", "finder": finder},
+                     headers=HEADERS, timeout=30)
+    r.raise_for_status()
+    items = (r.json().get("items") or [{}])[0].get("requisitionList", [])
+    return [{"title": j["Title"],
+             "url": f"https://{host}/hcmUI/CandidateExperience/en/sites/{siteno}/job/{j['Id']}",
+             "location": j.get("PrimaryLocation", "") or ""} for j in items]
+ 
+ 
 def fetch_html(site):
     r = requests.get(site["url"], headers=HEADERS, timeout=25)
     r.raise_for_status()
@@ -158,7 +182,7 @@ def fetch_auto(site):
  
  
 FETCHERS = {"greenhouse": fetch_greenhouse, "lever": fetch_lever, "smartrecruiters": fetch_smartrecruiters,
-            "workday": fetch_workday, "html": fetch_html, "browser": fetch_browser, "auto": fetch_auto}
+            "workday": fetch_workday, "oracle": fetch_oracle, "html": fetch_html, "browser": fetch_browser, "auto": fetch_auto}
 SCRAPED_TYPES = {"html", "browser", "auto"}
  
  
@@ -239,6 +263,15 @@ def evaluate(jobs, site, cfg):
  
 def get_jobs(site, cfg):
     stype = site.get("type", "auto")
+    if stype == "oracle":
+        try:
+            jobs = fetch_oracle(site)
+            if jobs:
+                return jobs
+            print(f"   [note] {site['name']}: Oracle API returned 0 jobs, trying the browser", file=sys.stderr)
+        except Exception as e:
+            print(f"   [note] {site['name']}: Oracle API failed ({e}), trying the browser", file=sys.stderr)
+        return fetch_browser(site)
     if stype != "auto":
         return FETCHERS[stype](site)
     # auto: fast plain request first; if it shows no internships (JS-built page), retry in a real browser
@@ -265,6 +298,7 @@ def run(test=False):
     migrating = "_urls" not in state          # first run of this version: stay quiet, just memorize
     urls = state.get("_urls", {})
     new_items = []
+    checked = 0
  
     for site in config["sites"]:
         name = site["name"]
@@ -275,10 +309,11 @@ def run(test=False):
         except Exception as e:
             fails[name] = fails.get(name, 0) + 1
             print(f"[error] {name}: {e}", file=sys.stderr)
-            if not test and fails[name] == 4:  # ~4 failed checks in a row -> tell the user once
+            if not test and fails[name] == 4 and not site.get("quiet"):  # ~4 failed checks in a row -> tell the user once
                 push("Bot: site not working", f"{name} keeps failing: {e}")
             continue
         fails.pop(name, None)
+        checked += 1
         matches, flags = evaluate(jobs, site, cfg)
  
         if test:
@@ -304,8 +339,21 @@ def run(test=False):
  
     close_browser()
     if not test:
+        active = {x["name"] for x in config["sites"]}
+        for k in [k for k in state if not k.startswith("_") and k not in active]:
+            del state[k]                       # site was removed from sites.yaml -> forget it
+        fails = {k: v for k, v in fails.items() if k in active}
+        urls = {k: v for k, v in urls.items() if k in active}
         state["_fail"] = fails
         state["_urls"] = urls
+        from datetime import datetime
+        from zoneinfo import ZoneInfo
+        now = datetime.now(ZoneInfo("Europe/Paris"))
+        today = now.strftime("%Y-%m-%d")
+        if now.hour >= int(os.getenv("HB_HOUR", "8")) and state.get("_hb") != today:
+            bad = ", ".join(sorted(fails)) or "none"
+            push("Bot is alive", f"{checked}/{len(active)} sites checked OK this run. Failing: {bad}")
+            state["_hb"] = today
         STATE_FILE.write_text(json.dumps(state, indent=1, ensure_ascii=False))
         if new_items:
             notify_new(new_items)
