@@ -19,6 +19,13 @@ sites:
   - name: Caisse des Dépôts
     url: https://caissedesdepots-recrute.fr/offres-emploi/?_type_contrat=stage
     # To keep only Paris jobs once we see the log, add:  require_text: ["paris"]
+  - name: JobTeaser
+    url: "https://www.jobteaser.com/en/job-offers?contract=internship&lat=48.853495&lng=2.348391&localized_location=Paris%2C+France&location=France%3A%3A%C3%8Ele-de-France%3A%3AParis%3A%3AParis%3A%3A_bG9jYWxpdHk6ZnI6Y2l0eTpmemVIZnJnZDJQekhETTNCZXE0NlUyL3pFMG89&radius=30&sort=recency"
+    type: browser
+    wait_ms: 6000
+    scrolls: 3
+    url_contains: "/job-offers/"   # only links to individual jobs
+    all_match: true                # the URL already filters: internships in Paris
   - name: Bpifrance
     url: "https://talents.bpifrance.fr/nos-opportunites/?criteres=stage%7Ccapital-investissement%7Cfinances%7Cimmobilier-et-environnement-de-travail%7Creseau-bancaire%7Caccompagnement%7Cdeal-flow%7Crisques%7Cdeveloppement-durable-rse%7Cinternational"
   - name: AMF
