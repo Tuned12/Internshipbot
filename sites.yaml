@@ -83,17 +83,16 @@ sites:
   url: https://antininfrastructurepartners-1655458195.teamtailor.com/jobs
 - name: Alven
   url: https://alven.co/careers
+- name: JobTeaser
+  url: https://www.jobteaser.com/en/job-offers?contract=internship&lat=48.853495&lng=2.348391&localized_location=Paris%2C+France&location=France%3A%3A%C3%8Ele-de-France%3A%3AParis%3A%3AParis%3A%3A_bG9jYWxpdHk6ZnI6Y2l0eTpmemVIZnJnZDJQekhETTNCZXE0NlUyL3pFMG89&radius=30&sort=recency
+  type: browser
+  wait_ms: 6000
+  scrolls: 3
+  url_contains: /job-offers/
+  all_match: true
+  quiet: true
  
-# ---- PARKED: these were blocked/empty from GitHub's servers. They may work if the bot runs on your own PC. ----
-# To re-enable one, copy its lines back into the list above.
-# - name: JobTeaser
-#   url: https://www.jobteaser.com/en/job-offers?contract=internship&lat=48.853495&lng=2.348391&localized_location=Paris%2C+France&location=France%3A%3A%C3%8Ele-de-France%3A%3AParis%3A%3AParis%3A%3A_bG9jYWxpdHk6ZnI6Y2l0eTpmemVIZnJnZDJQekhETTNCZXE0NlUyL3pFMG89&radius=30&sort=recency
-#   type: browser
-#   wait_ms: 6000
-#   scrolls: 3
-#   url_contains: /job-offers/
-#   all_match: true
-#   quiet: true
+# ---- PARKED (blocked/empty from GitHub's servers). To re-enable, copy the lines back into the list above. ----
 # - name: Isai
 #   url: https://isai.welcomekit.co/?departments%5B0%5D=Business&departments%5B1%5D=Legal%20-%20Finance&offices%5B0%5D=Paris&contract_types%5B0%5D=Internship&companies%5B0%5D=Evaneos&companies%5B1%5D=Mercateam
 #   type: browser
