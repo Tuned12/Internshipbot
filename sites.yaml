@@ -35,13 +35,6 @@ locations:
 sites:
 - name: Caisse des Dépôts
   url: https://caissedesdepots-recrute.fr/offres-emploi/?_type_contrat=stage
-- name: JobTeaser
-  url: https://www.jobteaser.com/en/job-offers?contract=internship&lat=48.853495&lng=2.348391&localized_location=Paris%2C+France&location=France%3A%3A%C3%8Ele-de-France%3A%3AParis%3A%3AParis%3A%3A_bG9jYWxpdHk6ZnI6Y2l0eTpmemVIZnJnZDJQekhETTNCZXE0NlUyL3pFMG89&radius=30&sort=recency
-  type: browser
-  wait_ms: 6000
-  scrolls: 3
-  url_contains: /job-offers/
-  all_match: true
 - name: Bpifrance
   url: https://talents.bpifrance.fr/nos-opportunites/?criteres=stage%7Ccapital-investissement%7Cfinances%7Cimmobilier-et-environnement-de-travail%7Creseau-bancaire%7Caccompagnement%7Cdeal-flow%7Crisques%7Cdeveloppement-durable-rse%7Cinternational
 - name: AMF
@@ -51,12 +44,6 @@ sites:
   type: browser
   wait_ms: 5000
   scrolls: 3
-- name: BNP Paribas
-  url: https://www.jobteaser.com/fr/companies/bnp-paribas/job-offers
-  type: browser
-  wait_ms: 6000
-  scrolls: 3
-  url_contains: /job-offers/
 - name: Crédit Agricole
   url: https://groupecreditagricole.jobs/fr/nos-offres/metiers/170463-170462-170469-170466-170464-170465-170479-170472-170473-170470/contrats/579/localisations/79/experiences/580/educations/192393-588-192394/marques/124-5-127-438-136-349-137-134-4-269-401-128-270-350-126-138-122-262-525-267-264-133-373-417-3-263-266-146-352-361-198/
 - name: Natixis / BPCE
@@ -96,10 +83,21 @@ sites:
   url: https://antininfrastructurepartners-1655458195.teamtailor.com/jobs
 - name: Alven
   url: https://alven.co/careers
-- name: Isai
-  url: https://isai.welcomekit.co/?departments%5B0%5D=Business&departments%5B1%5D=Legal%20-%20Finance&offices%5B0%5D=Paris&contract_types%5B0%5D=Internship&companies%5B0%5D=Evaneos&companies%5B1%5D=Mercateam
-  type: browser
-  wait_ms: 5000
-  scrolls: 3
-  quiet: true
+ 
+# ---- PARKED: these were blocked/empty from GitHub's servers. They may work if the bot runs on your own PC. ----
+# To re-enable one, copy its lines back into the list above.
+# - name: JobTeaser
+#   url: https://www.jobteaser.com/en/job-offers?contract=internship&lat=48.853495&lng=2.348391&localized_location=Paris%2C+France&location=France%3A%3A%C3%8Ele-de-France%3A%3AParis%3A%3AParis%3A%3A_bG9jYWxpdHk6ZnI6Y2l0eTpmemVIZnJnZDJQekhETTNCZXE0NlUyL3pFMG89&radius=30&sort=recency
+#   type: browser
+#   wait_ms: 6000
+#   scrolls: 3
+#   url_contains: /job-offers/
+#   all_match: true
+#   quiet: true
+# - name: Isai
+#   url: https://isai.welcomekit.co/?departments%5B0%5D=Business&departments%5B1%5D=Legal%20-%20Finance&offices%5B0%5D=Paris&contract_types%5B0%5D=Internship&companies%5B0%5D=Evaneos&companies%5B1%5D=Mercateam
+#   type: browser
+#   wait_ms: 5000
+#   scrolls: 3
+#   quiet: true
  
