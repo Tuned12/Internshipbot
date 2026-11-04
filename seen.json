@@ -125,8 +125,10 @@
   "https://www.isai.vc/early-stage-vc"
  ],
  "_fail": {
-  "BNP Paribas": 5,
-  "Isai": 4
+  "BNP Paribas": 6,
+  "Isai": 5,
+  "JobTeaser": 1,
+  "Bank of America": 1
  },
  "Crédit Agricole": [
   "https://groupecreditagricole.jobs/fr/developpez-votre-carriere/votre-profil/stage/",
