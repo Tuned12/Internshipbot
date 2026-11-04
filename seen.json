@@ -121,13 +121,7 @@
  "Alven": [
   "https://www.welcometothejungle.com/fr/companies/virgil/jobs/bras-droit-ceo-stage_paris_VIRGI_1ANLomd"
  ],
- "Isai": [
-  "https://www.isai.vc/early-stage-vc"
- ],
- "_fail": {
-  "BNP Paribas": 2,
-  "Isai": 1
- },
+ "_fail": {},
  "Crédit Agricole": [
   "https://groupecreditagricole.jobs/fr/developpez-votre-carriere/votre-profil/stage/",
   "https://groupecreditagricole.jobs/fr/developpez-votre-carriere/votre-profil/un-stage-de-3eme/",
@@ -174,33 +168,8 @@
   "https://caissedesdepots-recrute.fr/offre/stage-6m-data-scientist-junior-paris/",
   "https://caissedesdepots-recrute.fr/offre/stagiaire-dedie-fusions-acquisitions-et-fonds-dinvestissement-fh-paris/"
  ],
- "JobTeaser": [
-  "https://www.jobteaser.com/en/job-offers/05cecf68-777d-4ef3-bb35-87f5f7db07d7-bnp-paribas-stage-charge-de-recrutement-h-f",
-  "https://www.jobteaser.com/en/job-offers/0d3643c3-1d45-4250-800a-a60d266bd9ab-bnp-paribas-stage-assistant-chef-de-projet-formation-h-f",
-  "https://www.jobteaser.com/en/job-offers/14adf10c-af0b-46ad-9d6a-2cc88e1d5597-federation-francaise-de-tennis-stage-coordination-logistique-btoc-janvier-2027",
-  "https://www.jobteaser.com/en/job-offers/151087fe-f39e-4589-8b59-83a2717ae687-abeille-assurances-actuaire-pricing-produits-des-professionels-f-h-stage",
-  "https://www.jobteaser.com/en/job-offers/20159a13-5818-4897-9e2a-03e4124e0aa7-abeille-assurances-actuaire-data-science-f-h-stage",
-  "https://www.jobteaser.com/en/job-offers/20a5447d-aa0e-4686-8e1c-1304e226a37b-thales-stage-ingenieur-data-analytics-et-deploiement-f-h",
-  "https://www.jobteaser.com/en/job-offers/20b1e3ac-7f4a-40d1-897b-f63f1f203a88-astelia-responsable-projets-finance-rh-et-strategie-bras-droit-des-dirigeants",
-  "https://www.jobteaser.com/en/job-offers/2a3b3856-98df-453c-aa47-4c0c3f40f16e-tom-josette-charge-de-mission-suivi-de-chantier-et-operations",
-  "https://www.jobteaser.com/en/job-offers/2e049d8f-098e-48f5-9061-06bb6298a98f-abeille-assurances-actuaire-solvabilite-ii-vie-f-h-stage",
-  "https://www.jobteaser.com/en/job-offers/35920f0a-87bb-42ea-bd99-b885dc46e2c5-abeille-assurances-actuaire-pricing-produits-dab-f-h-stage",
-  "https://www.jobteaser.com/en/job-offers/4dd93aa3-03a2-4b5e-a913-1d753f700f82-air-liquide-internship-hse-analytics-digital-safety-junior-project-manager-m-f",
-  "https://www.jobteaser.com/en/job-offers/51ebdf47-0e64-4abd-86fc-be0d4eb7c3ce-hachette-livre-hachette-livre-assistant-chef-de-produit-stage-h-f",
-  "https://www.jobteaser.com/en/job-offers/6176f2bf-c3dd-49df-948f-62c532513f5b-rexel-stage-charge-e-de-reporting-rse-et-developpement-durable",
-  "https://www.jobteaser.com/en/job-offers/6755d001-259c-4079-a10a-e3a54bf1cb6d-bnp-paribas-stage-data-analyst-rh-power-bi-h-f",
-  "https://www.jobteaser.com/en/job-offers/7df546ad-d835-42bf-ac7c-712dc4fb9681-btp-consultants-stage-pfe-marketing-digital-seo-sea-marketing-automation-hauts-de-seine",
-  "https://www.jobteaser.com/en/job-offers/8ebf89f4-752f-4bc0-b7e3-2baf54540c6c-abeille-assurances-actuaire-solvabilite-ii-non-vie-f-h-stage",
-  "https://www.jobteaser.com/en/job-offers/b80750b7-1b87-44e3-98ee-8fa6d2c927ef-beetogreen-stage-assistant-equipe-partenariat",
-  "https://www.jobteaser.com/en/job-offers/c478a204-90a7-49d4-a368-0fe63e562ea0-abeille-assurances-actuaire-capital-valeurs-f-h-stage",
-  "https://www.jobteaser.com/en/job-offers/d15c642b-4f62-465b-a0f9-807735bda6d7-thales-stage-ingenieur-cloud-devsecops-f-h",
-  "https://www.jobteaser.com/en/job-offers/d5d04376-a258-4ac4-a414-d038318efea4-astelia-analyste-financier",
-  "https://www.jobteaser.com/en/job-offers/e9b3727f-391f-4d01-85cd-2c1716ab0381-astelia-stage-ingenieur-e-innovation-deeptech-cdi-a-la-cle",
-  "https://www.jobteaser.com/en/job-offers/eec68bcf-b9bc-4393-8229-2ddf7b0a5b7d-thales-stage-business-strategy-associate-cortaix-factory"
- ],
  "_urls": {
   "Caisse des Dépôts": "https://caissedesdepots-recrute.fr/offres-emploi/?_type_contrat=stage",
-  "JobTeaser": "https://www.jobteaser.com/en/job-offers?contract=internship&lat=48.853495&lng=2.348391&localized_location=Paris%2C+France&location=France%3A%3A%C3%8Ele-de-France%3A%3AParis%3A%3AParis%3A%3A_bG9jYWxpdHk6ZnI6Y2l0eTpmemVIZnJnZDJQekhETTNCZXE0NlUyL3pFMG89&radius=30&sort=recency",
   "Bpifrance": "https://talents.bpifrance.fr/nos-opportunites/?criteres=stage%7Ccapital-investissement%7Cfinances%7Cimmobilier-et-environnement-de-travail%7Creseau-bancaire%7Caccompagnement%7Cdeal-flow%7Crisques%7Cdeveloppement-durable-rse%7Cinternational",
   "AMF": "https://amf-career.talent-soft.com/offre-de-emploi/liste-offres.aspx",
   "Société Générale": "https://careers.societegenerale.com/en/search?refinementList[jobLocation][0]=FRA&refinementList[jobLocation][1]=FRA_A20_D001&refinementList[jobLocation][2]=FRA_A20_D001_L002&refinementList[jobLocation][3]=FRA_A20_D001_L010&refinementList[jobLocation][4]=FRA_A20_D001_L016&refinementList[jobType][0]=INTERNSHIP&refinementList[jobFunction][0]=UW387&refinementList[jobFunction][1]=ZX468&refinementList[jobFunction][2]=CF100&refinementList[jobFunction][3]=KJ697&refinementList[jobFunction][4]=NP922&refinementList[jobFunction][5]=IM205&refinementList[jobFunction][6]=SU264&refinementList[jobFunction][7]=ET461",
