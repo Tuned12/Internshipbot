@@ -122,7 +122,9 @@
  "Alven": [
   "https://www.welcometothejungle.com/fr/companies/virgil/jobs/bras-droit-ceo-stage_paris_VIRGI_1ANLomd"
  ],
- "_fail": {},
+ "_fail": {
+  "JobTeaser": 1
+ },
  "Crédit Agricole": [
   "https://groupecreditagricole.jobs/fr/developpez-votre-carriere/votre-profil/stage/",
   "https://groupecreditagricole.jobs/fr/developpez-votre-carriere/votre-profil/un-stage-de-3eme/",
@@ -163,6 +165,7 @@
   "https://talents.bpifrance.fr/opportunites/charge-d-etudes-f-h-4/?id=10152-43",
   "https://talents.bpifrance.fr/opportunites/charge-de-developpement-du-fonds-bpifrance-defense-f-h/?id=10237-42",
   "https://talents.bpifrance.fr/opportunites/charge-de-mission-controle-amp-eligibilite-f-h/?id=10023-46",
+  "https://talents.bpifrance.fr/opportunites/charge-de-mission-pole-developpement-f-h/?id=10141-62",
   "https://talents.bpifrance.fr/opportunites/charge-de-relation-client-f-h/?id=10200-28",
   "https://talents.bpifrance.fr/opportunites/charge-developpement-export-relations-internationales-f-h/?id=10018-33",
   "https://talents.bpifrance.fr/opportunites/chef-de-projet-f-h/?id=10198-92"
