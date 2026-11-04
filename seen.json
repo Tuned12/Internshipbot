@@ -122,13 +122,15 @@
   "https://www.welcometothejungle.com/fr/companies/virgil/jobs/bras-droit-ceo-stage_paris_VIRGI_1ANLomd"
  ],
  "_fail": {
-  "JobTeaser": 1
+  "JobTeaser": 2
  },
  "Crédit Agricole": [
   "https://groupecreditagricole.jobs/fr/developpez-votre-carriere/votre-profil/stage/",
   "https://groupecreditagricole.jobs/fr/developpez-votre-carriere/votre-profil/un-stage-de-3eme/",
+  "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170463-136-stage-analyste-financement-de-fonds-de-private-equity-hf-reference--2026-117125--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-122-stage---assistante-analyste-pilotage-reporting-et-operations-hf-reference--2026-116449--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-124-stage--support-vente-institutionnel-et-digital-hf-reference--2026-112785--/",
+  "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-136-stage---accountant-peres-hf-reference--2026-117126--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-136-stage---depositary-control-assistant-hf-reference--2026-109193--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage---assistant-specialiste-produit--gestions-actions-hf-reference--2026-117046--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage---charge-de-reponses-aux-appels-d-offres-stage-hf-reference--2026-117084--/",
@@ -143,10 +145,12 @@
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170469-198-charge-de-conformite---stage-hf-reference--2026-115556--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170470-124-stagiaire-risk-management--projets-hf-reference--2026-117093--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170478-136-stage---business-coverage-support-analyst-hf-reference--2026-117013--/",
+  "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170479-136-stage---client-operations-officer---coupons--remboursements-hf-reference--2026-117133--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170479-136-stage---client-operations-officer--investor-services-peres-hf-reference--2026-112320--/"
  ],
  "Amundi": [
-  "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-finance-de-marche-structuration-et-innovation-produit-etf-indiciel-h-f_117097.aspx"
+  "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-finance-de-marche-structuration-et-innovation-produit-etf-indiciel-h-f_117097.aspx",
+  "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-marketing-financier-strategie-asset-management-h-f_116638.aspx"
  ],
  "Bpifrance": [
   "https://talents.bpifrance.fr/etudiants/stage/",
