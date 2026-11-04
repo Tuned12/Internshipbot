@@ -125,9 +125,10 @@
   "https://www.isai.vc/early-stage-vc"
  ],
  "_fail": {
-  "BNP Paribas": 11,
-  "Isai": 10,
-  "JobTeaser": 6
+  "BNP Paribas": 12,
+  "Isai": 11,
+  "JobTeaser": 7,
+  "Crédit Agricole": 1
  },
  "Crédit Agricole": [
   "https://groupecreditagricole.jobs/fr/developpez-votre-carriere/votre-profil/stage/",
@@ -225,5 +226,6 @@
   "Tikehau Capital": "https://tikehau-capital-career.talentview.io/en?source=site_entreprise&coopt=on&job_types=Internship&lat=48.8575475&lon=2.3513765&city=Paris&iso_country=FR&place=Paris,+France&distance=50",
   "Antin": "https://antininfrastructurepartners-1655458195.teamtailor.com/jobs",
   "Alven": "https://alven.co/careers"
- }
+ },
+ "_hb": "2026-11-04"
 }
