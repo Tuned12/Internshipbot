@@ -119,13 +119,15 @@
   "https://tikehau-capital-career.talentview.io/jobs/yzus2b?source=site_entreprise&utm_source=site_entreprise&coopt=on",
   "https://tikehau-capital-career.talentview.io/jobs/z6kba5?source=site_entreprise&utm_source=site_entreprise&coopt=on"
  ],
- "Antin": [],
+ "Antin": [
+  "https://antininfrastructurepartners-1655458195.teamtailor.com/jobs/8684540-luxembourg-reporting-analytics-intern"
+ ],
  "Alven": [
   "https://www.welcometothejungle.com/fr/companies/virgil/jobs/bras-droit-ceo-stage_paris_VIRGI_1ANLomd"
  ],
  "_fail": {
-  "Bpifrance": 1,
-  "JobTeaser": 1
+  "Bpifrance": 2,
+  "JobTeaser": 2
  },
  "Crédit Agricole": [
   "https://groupecreditagricole.jobs/fr/developpez-votre-carriere/votre-profil/stage/",
