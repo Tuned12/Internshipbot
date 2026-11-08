@@ -126,8 +126,8 @@
   "https://www.welcometothejungle.com/fr/companies/virgil/jobs/bras-droit-ceo-stage_paris_VIRGI_1ANLomd"
  ],
  "_fail": {
-  "Bpifrance": 67,
-  "JobTeaser": 12
+  "Bpifrance": 68,
+  "JobTeaser": 13
  },
  "Crédit Agricole": [
   "https://groupecreditagricole.jobs/fr/developpez-votre-carriere/votre-profil/stage/",
@@ -160,12 +160,14 @@
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-meta-midcap---stage-hf-reference--2026-117024--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170468-122-stagiaire-etudes-veille-et-mises-en-marche-banque-privee-patrimonial-et-epargne-hf-reference--2026-116876--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170469-122-stage---chargee-au-sein-de-l-equipe-centre-de-services-partages-conformitehf-reference--2026-116015--/",
+  "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170469-136-stage---chargee-de-securite-financiere-et-prevention-de-la-fraude-hf-reference--2026-115297--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170469-198-charge-de-conformite---stage-hf-reference--2026-115556--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170469-5-stage---chargee-de-conformite-hf-reference--2026-117061--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170470-122-stage---datascientist-hf-reference--2026-116063--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170470-122-stage--chief-of-staff-transformation-et-communication-strategique-risques-groupe-hf-reference--2026-116014--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170470-124-stagiaire-risk-management--projets-hf-reference--2026-117093--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170470-136-stage---risk-consolidated-report-et-projects-hf-reference--2026-117248--/",
+  "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170473-136-stage---chargee-de-conformite-hf-reference--2026-115293--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170478-136-stage---business-coverage-support-analyst-hf-reference--2026-117013--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170479-136-stage---charge-d-operations---derivativ-clearing-et-cash-equity-hf-reference--2026-117242--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170479-136-stage---chargee-de-reporting---custody-et-cash-clearing-hf-reference--2026-117249--/",
@@ -178,6 +180,7 @@
  ],
  "Amundi": [
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-communication-visuelle-formation-en-epargne-salariale-et-retraite-h-f_113340.aspx",
+  "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-finance-client-service-fund-channel-h-f_116351.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-finance-de-marche-structuration-et-innovation-produit-etf-indiciel-h-f_117097.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-marketing-financier-strategie-asset-management-h-f_116638.aspx"
  ],
