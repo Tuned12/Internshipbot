@@ -14,6 +14,7 @@
  "Natixis / BPCE": [
   "https://recrutement.natixis.com/job/stage-6-mois-analyste-fonds-dinvestissement-immobiliers-f-h",
   "https://recrutement.natixis.com/job/stage-6-mois-analyste-quantitatif-multi-actifs-prives-f-h",
+  "https://recrutement.natixis.com/job/stage-6-mois-assistant-analyste-covered-bonds-f-h",
   "https://recrutement.natixis.com/job/stage-6-mois-assistant-syndication-obligataire-f-h",
   "https://recrutement.natixis.com/job/stage-6-mois-calculation-agent-assistant-f-h",
   "https://recrutement.natixis.com/job/stage-6-mois-controleur-de-gestion-f-h",
@@ -127,7 +128,8 @@
   "https://www.welcometothejungle.com/fr/companies/virgil/jobs/bras-droit-ceo-stage_paris_VIRGI_1ANLomd"
  ],
  "_fail": {
-  "JobTeaser": 8
+  "JobTeaser": 9,
+  "Bank of America": 1
  },
  "Crédit Agricole": [
   "https://groupecreditagricole.jobs/fr/developpez-votre-carriere/votre-profil/stage/",
