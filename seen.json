@@ -14,6 +14,7 @@
  "Natixis / BPCE": [
   "https://recrutement.natixis.com/job/stage-6-mois-analyste-fonds-dinvestissement-immobiliers-f-h",
   "https://recrutement.natixis.com/job/stage-6-mois-analyste-quantitatif-multi-actifs-prives-f-h",
+  "https://recrutement.natixis.com/job/stage-6-mois-analyste-quantitatif-stress-tests-f-h",
   "https://recrutement.natixis.com/job/stage-6-mois-assistant-analyste-covered-bonds-f-h",
   "https://recrutement.natixis.com/job/stage-6-mois-assistant-syndication-obligataire-f-h",
   "https://recrutement.natixis.com/job/stage-6-mois-calculation-agent-assistant-f-h",
@@ -132,7 +133,7 @@
   "https://www.welcometothejungle.com/fr/companies/virgil/jobs/bras-droit-ceo-stage_paris_VIRGI_1ANLomd"
  ],
  "_fail": {
-  "JobTeaser": 11
+  "JobTeaser": 12
  },
  "Crédit Agricole": [
   "https://groupecreditagricole.jobs/fr/developpez-votre-carriere/votre-profil/stage/",
@@ -200,6 +201,7 @@
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-investment-risk-data-analyst-h-f_114058.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-marketing-content-ia-automatisation-h-f_116950.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-marketing-financier-strategie-asset-management-h-f_116638.aspx",
+  "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-marketing-produit-et-mise-en-marche-amundi-actifs-prives-alternatifs-h-f_116407.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stagiaire-ai-compliance-h-f_117322.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stagiaire-data-science-ia-h-f_113923.aspx"
  ],
