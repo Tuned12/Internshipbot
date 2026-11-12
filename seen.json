@@ -135,7 +135,9 @@
  "Alven": [
   "https://www.welcometothejungle.com/fr/companies/virgil/jobs/bras-droit-ceo-stage_paris_VIRGI_1ANLomd"
  ],
- "_fail": {},
+ "_fail": {
+  "JobTeaser": 1
+ },
  "Crédit Agricole": [
   "https://groupecreditagricole.jobs/fr/developpez-votre-carriere/votre-profil/stage/",
   "https://groupecreditagricole.jobs/fr/developpez-votre-carriere/votre-profil/un-stage-de-3eme/",
@@ -143,6 +145,7 @@
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170463-122-stage---analyste-valorisation-d-entreprise-secteur-financier-hf-reference--2026-116104--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170463-122-stage---economiste-risque-pays-hf-reference--2026-115945--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170463-122-stage-strategie-analyste-en-charge-de-projets-strategiques-hf-reference--2026-116078--/",
+  "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170463-124-stage---financial-controller-and-analyst-trading-hf-hf-reference--2026-117409--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170463-136-stage-analyste-financement-de-fonds-de-private-equity-hf-reference--2026-117125--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-122-stage---analyste-financier--mesure-du-risque-de-taux-hf-reference--2026-116448--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-122-stage---assistante-analyste-pilotage-reporting-et-operations-hf-reference--2026-116449--/",
@@ -165,6 +168,7 @@
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage-en-finance-et-business-pilotage-et-suivi-commercial-hf-reference--2026-117045--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage-marketing-content---ia-et-automatisation-hf-reference--2026-116950--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage-ocio--solutions---advisory-gestion-diversifiee-hf-reference--2026-117043--/",
+  "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-124-stage---analyste-stagiaire--capital-naturel-hf-reference--2026-117405--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-124-stage---assistant-securities-lending-trading-hf-reference--2026-116870--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-136-stage---general-secretary-et-permanent-control----peres-hf-reference--2026-116951--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-3-stage----analyste-energie-et-finance-hf-reference--2026-116257--/",
@@ -192,14 +196,18 @@
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170479-136-stage---client-operations-officer---settlement-buy-side-hf-reference--2026-117247--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170479-136-stage---client-operations-officer--investor-services-peres-hf-reference--2026-112320--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170479-136-stage---client-operations-officer-hf-reference--2026-117240--/",
+  "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170479-136-stage---gestionnaire-d-operations-prets-emprunts-hf-reference--2026-117138--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170479-136-stage---middle-officer---stock-hf-reference--2026-117144--/"
  ],
  "Amundi": [
+  "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-analyste-stagiaire-capital-naturel-h-f_117405.aspx",
+  "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-assistant-e-produits-financiers-et-coordination-internationale-en-asset-management-h-f_117404.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-assistant-middle-office-dette-privee-h-f_117397.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-business-controller-h-f_117060.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-communication-visuelle-formation-en-epargne-salariale-et-retraite-h-f_113340.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-finance-client-service-fund-channel-h-f_116351.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-finance-de-marche-structuration-et-innovation-produit-etf-indiciel-h-f_117097.aspx",
+  "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-financial-controller-and-analyst-trading-h-f-h-f_117409.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-gestion-solutions-structurees-et-blended-finance-h-f_117290.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-investment-product-strategy-etf-indexing-index-mandates-h-f_117305.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-investment-risk-data-analyst-h-f_114058.aspx",
