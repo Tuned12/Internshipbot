@@ -135,7 +135,9 @@
  "Alven": [
   "https://www.welcometothejungle.com/fr/companies/virgil/jobs/bras-droit-ceo-stage_paris_VIRGI_1ANLomd"
  ],
- "_fail": {},
+ "_fail": {
+  "JobTeaser": 1
+ },
  "Crédit Agricole": [
   "https://groupecreditagricole.jobs/fr/developpez-votre-carriere/votre-profil/stage/",
   "https://groupecreditagricole.jobs/fr/developpez-votre-carriere/votre-profil/un-stage-de-3eme/",
@@ -201,6 +203,7 @@
  ],
  "Amundi": [
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-analyste-stagiaire-capital-naturel-h-f_117405.aspx",
+  "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-assistant-chef-de-projet-marketing-institutionnel-h-f_115929.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-assistant-e-produits-financiers-et-coordination-internationale-en-asset-management-h-f_117404.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-assistant-middle-office-dette-privee-h-f_117397.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-business-controller-h-f_117060.aspx",
