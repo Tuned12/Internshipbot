@@ -136,9 +136,7 @@
  "Alven": [
   "https://www.welcometothejungle.com/fr/companies/virgil/jobs/bras-droit-ceo-stage_paris_VIRGI_1ANLomd"
  ],
- "_fail": {
-  "JobTeaser": 1
- },
+ "_fail": {},
  "Crédit Agricole": [
   "https://groupecreditagricole.jobs/fr/developpez-votre-carriere/votre-profil/stage/",
   "https://groupecreditagricole.jobs/fr/developpez-votre-carriere/votre-profil/un-stage-de-3eme/",
@@ -306,6 +304,7 @@
   "https://www.jobteaser.com/en/job-offers/0a570d92-7203-4863-a247-14112e72898a-canal-group-stage-assistante-assistant-contenus-digitaux-jeunesse-f-h-x",
   "https://www.jobteaser.com/en/job-offers/0acb43d3-a71c-4932-b811-30227a6cda00-bnp-paribas-france-stage-business-analyst-referentiel-des-entites-bnpp-h-f",
   "https://www.jobteaser.com/en/job-offers/0ae9dc58-30bd-4b57-8853-4b533e231e13-ab-inbev-europe-stage-junior-revenu-et-promo-management-h-f",
+  "https://www.jobteaser.com/en/job-offers/0b43bf67-291d-4172-b7bb-441a163833d7-valeo-stagiaire-ingenieur-conception-optomecanique",
   "https://www.jobteaser.com/en/job-offers/0b4f0b89-940b-4ac6-aacc-22398e98d93e-societe-generale-analyste-risques-de-marche-contrepartie",
   "https://www.jobteaser.com/en/job-offers/0c525515-0226-4f19-b0a1-2398170aa261-mars-stage-mars-food-assistant-e-chef-de-produits-suzi-wan-h-f-x-janvier-2027-paris-6-mois",
   "https://www.jobteaser.com/en/job-offers/0c97de57-fcf9-44ad-b7f4-15f21b1fa0de-chanel-stage-assistant-e-manager-de-vente-h-f-boutique-mode-paris-septembre-2024-4-mois",
@@ -422,9 +421,11 @@
   "https://www.jobteaser.com/en/job-offers/417599fe-3c5c-4665-9e67-c3604d5b1f80-bnp-paribas-france-stage-assistant-architecte-entreprise-h-f",
   "https://www.jobteaser.com/en/job-offers/4238a064-4eb9-4cd6-abd9-0347411062b2-thales-stage-ia-appliquee-a-la-thermique-f-h",
   "https://www.jobteaser.com/en/job-offers/43cbc120-155c-4d9b-b7b7-19f69769ec5f-canal-group-stage-assistant-assistante-editorial-humour-f-h-x",
+  "https://www.jobteaser.com/en/job-offers/4417962a-4c42-4ea4-9a00-d61d7d2ac924-capgemini-engineering-developpeur-developpeuse-logiciel-stage",
   "https://www.jobteaser.com/en/job-offers/4540c33a-02cf-4984-ae03-dd14abd8a280-groupe-covea-maaf-mma-gmf-stage-charge-d-etudes-statistiques-recrutement-h-f",
   "https://www.jobteaser.com/en/job-offers/45521cdc-a573-4cd6-8c9f-b12ce9403983-chanel-stage-assistant-chef-de-projet-influence-horlogerie-joaillerie-h-f-x",
   "https://www.jobteaser.com/en/job-offers/4556c817-7fe3-4694-b483-3aded392db26-sopra-steria-stage-consultant-e-communication-et-sensibilisation-cybersecurite-ile-de-france",
+  "https://www.jobteaser.com/en/job-offers/45e1e9ba-8ac5-418f-8fe9-5e6647edd648-cgi-stage-consultant-e-sirh-f-h",
   "https://www.jobteaser.com/en/job-offers/469f4269-2021-48f4-87ec-13bdc7aa9382-immobiliere-3f-stage-charge-d-etudes-data-et-exploitation-f-h",
   "https://www.jobteaser.com/en/job-offers/4805a042-d5c7-4d5f-941d-f04c828b3508-societe-generale-assistant-charge-d-affaires-dette-privee-lbo",
   "https://www.jobteaser.com/en/job-offers/4abbd24b-6e74-43a4-a23c-6741a490affd-banque-de-france-stage-assistant-de-recherche-en-modelisation-macroeconomique-h-f",
@@ -730,6 +731,7 @@
   "https://www.jobteaser.com/en/job-offers/de8892e3-7e7d-43c9-a918-a7cc689526bc-veolia-vesa-stage-assistance-aux-operationnels-et-au-directeur-juridique-en-matiere-de-gestion-des-contentieux-et-des-relations-contractuelles-avec-les-donneurs-d-ordres-publics-passation-et-execution-des-cont",
   "https://www.jobteaser.com/en/job-offers/de8b6f90-1200-42ac-be75-89233044927f-kpmg-france-stagiaire-evaluation-et-modelisation-financiere-h-f",
   "https://www.jobteaser.com/en/job-offers/df77a234-db65-486a-88ea-2073d7664aaa-lilly-stage-associe-e-marketing-consumer-et-digital-f-h",
+  "https://www.jobteaser.com/en/job-offers/dfa7485f-a456-4620-8321-744b7da85a25-danone-stage-corporate-insurance-risk-prevention-january-2027-h-f",
   "https://www.jobteaser.com/en/job-offers/e0f36090-cbbe-4413-9893-20646050dd4d-autorite-des-marches-financiers-amf-stage-direction-regulation-et-affaires-internationales-division-regulation-des-emetteurs-h-f",
   "https://www.jobteaser.com/en/job-offers/e138ab24-c002-44dc-bf41-a04a6ce4dc5c-societe-generale-analyste-cybersecurite",
   "https://www.jobteaser.com/en/job-offers/e19a7883-422e-4abf-8d15-c187b1ef57ef-forvis-mazars-stagiaire-de-fin-d-etudes-tech-risk-it-m-a-tech4value-2027-h-f",
