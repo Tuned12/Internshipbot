@@ -142,7 +142,9 @@
  "Alven": [
   "https://www.welcometothejungle.com/fr/companies/virgil/jobs/bras-droit-ceo-stage_paris_VIRGI_1ANLomd"
  ],
- "_fail": {},
+ "_fail": {
+  "JobTeaser": 1
+ },
  "Crédit Agricole": [
   "https://groupecreditagricole.jobs/fr/developpez-votre-carriere/votre-profil/stage/",
   "https://groupecreditagricole.jobs/fr/developpez-votre-carriere/votre-profil/un-stage-de-3eme/",
@@ -159,6 +161,7 @@
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-122-stage-au-sein-de-l-equipe-de-modelisation-alm-de-credit-agricole-sa-hf-juin-2027-reference--2026-116451--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-122-stage-au-sein-de-l-equipe-de-modelisation-alm-de-credit-agricole-sa-hf-reference--2026-116450--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-122-stagiaire-analyste-en-financement-collateralise-hf-reference--2026-116454--/",
+  "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-124-stage---gestion-sous-mandat--assistant-gerant-hf-reference--2026-117530--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-124-stage--support-vente-institutionnel-et-digital-hf-reference--2026-112785--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-136-stage---accountant-peres-hf-reference--2026-117126--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-136-stage---analyste-financement-middle-office-peres-hf-reference--2026-116094--/",
@@ -214,6 +217,7 @@
  ],
  "Amundi": [
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-internship-hr-projects-m-f_116470.aspx",
+  "https://www.jobs.amundi.com/offre-de-emploi/emploi-internship-real-assets-analyst-6-months-h-f_117525.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-analyse-de-titrisations-h-f_116874.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-analyste-multigestion-private-equity-h-f_116979.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-analyste-proposition-client-h-f_116250.aspx",
@@ -225,6 +229,7 @@
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-assistant-e-responsable-grands-comptes-gestion-et-pilotage-des-operations-h-f_117478.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-assistant-gerant-actions-thematiques-h-f_115782.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-assistant-middle-office-dette-privee-h-f_117397.aspx",
+  "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-assistant-officer-delivery-operation-governance-h-f_117524.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-assistant-sales-strategy-distribution-wealth-h-f_117476.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-business-controller-h-f_117060.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-charge-de-processus-operationnels-h-f_117469.aspx",
@@ -236,6 +241,7 @@
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-finance-de-marche-structuration-et-innovation-produit-etf-indiciel-h-f_117097.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-financial-controller-and-analyst-trading-h-f-h-f_117409.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-gestion-solutions-structurees-et-blended-finance-h-f_117290.aspx",
+  "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-gestion-sous-mandat-assistant-gerant-h-f_117530.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-gestionnaire-administratif-h-f_117467.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-gestionnaire-administratif-h-f_117501.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-intitule-du-poste-assistant-coordinateur-risques-surveillance-permanente-middle-office-h-f_117402.aspx",
@@ -248,6 +254,7 @@
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-marketing-financier-strategie-asset-management-h-f_116638.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-marketing-produit-et-mise-en-marche-amundi-actifs-prives-alternatifs-h-f_116407.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-pilotage-des-couts-des-asset-servicers-asset-servicing-invoicing-h-f_117411.aspx",
+  "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-project-corporate-governance-6-12-mois-h-f_117529.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stagiaire-ai-compliance-h-f_117322.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stagiaire-data-science-ia-h-f_113923.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stagiaire-product-development-business-coordination-h-f_117413.aspx"
