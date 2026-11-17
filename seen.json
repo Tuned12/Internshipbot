@@ -142,7 +142,7 @@
   "https://www.welcometothejungle.com/fr/companies/virgil/jobs/bras-droit-ceo-stage_paris_VIRGI_1ANLomd"
  ],
  "_fail": {
-  "JobTeaser": 12
+  "JobTeaser": 13
  },
  "Crédit Agricole": [
   "https://groupecreditagricole.jobs/fr/developpez-votre-carriere/votre-profil/stage/",
@@ -178,6 +178,7 @@
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage-en-finance-et-business-pilotage-et-suivi-commercial-hf-reference--2026-117045--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage-marketing-content---ia-et-automatisation-hf-reference--2026-116950--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage-ocio--solutions---advisory-gestion-diversifiee-hf-reference--2026-117043--/",
+  "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stagiaire-it-middle-office--agents-ia-pour-le-support-et-les-tests-de-non-regression-alto-hf-reference--2026-117472--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stagiaire-product-development-et-business-coordination-hf-reference--2026-117413--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-124-stage---analyste-stagiaire--capital-naturel-hf-reference--2026-117405--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-124-stage---assistant-securities-lending-trading-hf-reference--2026-116870--/",
@@ -228,12 +229,15 @@
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-business-controller-h-f_117060.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-charge-de-processus-operationnels-h-f_117469.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-communication-visuelle-formation-en-epargne-salariale-et-retraite-h-f_113340.aspx",
+  "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-dev-full-stack-h-f_117498.aspx",
+  "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-dev-full-stack-h-f_117500.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-developpeur-rpa-ui-path-h-f_117424.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-finance-client-service-fund-channel-h-f_116351.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-finance-de-marche-structuration-et-innovation-produit-etf-indiciel-h-f_117097.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-financial-controller-and-analyst-trading-h-f-h-f_117409.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-gestion-solutions-structurees-et-blended-finance-h-f_117290.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-gestionnaire-administratif-h-f_117467.aspx",
+  "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-gestionnaire-administratif-h-f_117501.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-intitule-du-poste-assistant-coordinateur-risques-surveillance-permanente-middle-office-h-f_117402.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-investment-product-strategy-etf-indexing-index-mandates-h-f_117305.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-investment-risk-data-analyst-h-f_114058.aspx",
@@ -300,7 +304,7 @@
   "Alven": "https://alven.co/careers",
   "JobTeaser": "https://www.jobteaser.com/en/job-offers?contract=internship&lat=48.853495&lng=2.348391&localized_location=Paris%2C+France&location=France%3A%3A%C3%8Ele-de-France%3A%3AParis%3A%3AParis%3A%3A_bG9jYWxpdHk6ZnI6Y2l0eTpmemVIZnJnZDJQekhETTNCZXE0NlUyL3pFMG89&radius=30&sort=recency"
  },
- "_hb": "2026-11-16",
+ "_hb": "2026-11-17",
  "JobTeaser": [
   "https://www.jobteaser.com/en/job-offers/0054fbbe-b164-41e1-aa4d-244be762c883-guerlain-stage-assistant-recrutement-young-talents-projets-rh",
   "https://www.jobteaser.com/en/job-offers/0070eeb1-fc24-4fb6-a41b-f685165ec09e-guerlain-stage-achats-packaging-f-h",
