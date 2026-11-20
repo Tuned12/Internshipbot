@@ -3,6 +3,7 @@
   "https://amf-career.talent-soft.com/offre-de-emploi/emploi-stage-analyste-direction-des-donnees-et-de-la-surveillance-h-f_1082.aspx",
   "https://amf-career.talent-soft.com/offre-de-emploi/emploi-stage-auditeur-trice-interne-h-f_1075.aspx",
   "https://amf-career.talent-soft.com/offre-de-emploi/emploi-stage-charge-de-projet-education-financiere-et-information-des-epargnants-f-h_1108.aspx",
+  "https://amf-career.talent-soft.com/offre-de-emploi/emploi-stage-charge-de-projets-cybersecurite-ia-direction-des-controles-h-f_1079.aspx",
   "https://amf-career.talent-soft.com/offre-de-emploi/emploi-stage-charge-de-supervision-direction-de-la-gestion-d-actifs-psi-h-f_1083.aspx",
   "https://amf-career.talent-soft.com/offre-de-emploi/emploi-stage-charge-de-supervision-direction-de-la-gestion-d-actifs-sgp-h-f_1096.aspx",
   "https://amf-career.talent-soft.com/offre-de-emploi/emploi-stage-developpeur-data-direction-des-donnees-et-de-la-surveillance-h-f_1081.aspx",
@@ -154,7 +155,9 @@
  "Alven": [
   "https://www.welcometothejungle.com/fr/companies/virgil/jobs/bras-droit-ceo-stage_paris_VIRGI_1ANLomd"
  ],
- "_fail": {},
+ "_fail": {
+  "JobTeaser": 1
+ },
  "Crédit Agricole": [
   "https://groupecreditagricole.jobs/fr/developpez-votre-carriere/votre-profil/stage/",
   "https://groupecreditagricole.jobs/fr/developpez-votre-carriere/votre-profil/un-stage-de-3eme/",
