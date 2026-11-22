@@ -157,9 +157,7 @@
  "Alven": [
   "https://www.welcometothejungle.com/fr/companies/virgil/jobs/bras-droit-ceo-stage_paris_VIRGI_1ANLomd"
  ],
- "_fail": {
-  "JobTeaser": 5
- },
+ "_fail": {},
  "Crédit Agricole": [
   "https://groupecreditagricole.jobs/fr/developpez-votre-carriere/votre-profil/stage/",
   "https://groupecreditagricole.jobs/fr/developpez-votre-carriere/votre-profil/un-stage-de-3eme/",
@@ -493,12 +491,14 @@
   "https://www.jobteaser.com/en/job-offers/2105f084-36c8-47a2-bc99-3a5740fff9ab-chanel-stage-assistant-e-manager-des-operations-boutique-mode-paris-janvier-2023",
   "https://www.jobteaser.com/en/job-offers/2145fd19-028e-40c6-ba57-b77665618c7f-shiseido-emea-stage-retail-operations-performance-assistant-emea-h-f-janvier-2027",
   "https://www.jobteaser.com/en/job-offers/219b4da3-ca36-456c-bd6a-2fede941c646-veepee-stage-account-manager-secteur-beaute-h-f-x-janvier-2027",
+  "https://www.jobteaser.com/en/job-offers/21c195ae-36f1-42ec-9ed5-64469725c384-amundi-stage-support-vente-institutionnel-digital-h-f",
   "https://www.jobteaser.com/en/job-offers/2200d247-0ff8-49b7-874f-0515bf7a9812-accor-global-social-media-influence-assistant-midscale-economy-brands-6-months-internship",
   "https://www.jobteaser.com/en/job-offers/2209d8af-933b-423f-9b5d-cf894ea6c44d-allianz-france-data-pilotage-h-f-stage",
   "https://www.jobteaser.com/en/job-offers/22192098-4557-4add-b988-21cea6325fb2-veolia-vesa-stage-data-science-developpement-d-un-simulateur-d-echantillonnage-avance-pour-l-optimisation-des-mesures-sur-matieres-solides-h-f",
   "https://www.jobteaser.com/en/job-offers/22192e97-c3cc-4408-a469-e581cd3d1931-danone-internship-edp-strategy-january-2027-m-w",
   "https://www.jobteaser.com/en/job-offers/22397639-f273-4826-bc78-236e261f820b-savencia-stagiaire-conseiller-ere-de-vente-f-h",
   "https://www.jobteaser.com/en/job-offers/225dade8-43bf-4cea-bc8c-ff302057e78a-bdo-france-stagiaire-en-droit-social-f-h-juil-2027",
+  "https://www.jobteaser.com/en/job-offers/227bbdb9-d72d-4733-beed-4178ab502712-credit-agricole-cib-assistant-commercial-trade-finance-h-f",
   "https://www.jobteaser.com/en/job-offers/243a7b2c-7f26-4475-a387-5b48a65f3502-wiremind-ai-engineer-internal-workflows-h-f-stage-paris",
   "https://www.jobteaser.com/en/job-offers/245edfd8-cc2a-42a9-a709-68e77d0804a2-bnp-paribas-france-stage-chef-de-projet-h-f",
   "https://www.jobteaser.com/en/job-offers/2478cba4-d7c5-4866-9240-d5e2810bec9a-bpifrance-stage-juriste-contentieux-f-h",
@@ -921,6 +921,7 @@
   "https://www.jobteaser.com/en/job-offers/8bfc89c9-34b4-4233-a0b1-5b910764cbcf-bouygues-batiment-france-stage-de-fin-d-etudes-conducteur-de-travaux-conductrice-de-travaux",
   "https://www.jobteaser.com/en/job-offers/8c1265d6-b33b-41bc-b5a6-6c1a94f81778-wiremind-ai-product-owner-m-f-internship-paris",
   "https://www.jobteaser.com/en/job-offers/8c944509-fd77-4208-b166-4e1c62cc6825-hermes-stage-assistant-supply-analyst-h-f",
+  "https://www.jobteaser.com/en/job-offers/8cd08109-fda5-443f-969e-9a0509f6d418-pernod-ricard-global-prestige-brand-strategy-luxury-partnerships-intern-january-2027",
   "https://www.jobteaser.com/en/job-offers/8cdd6dcf-ec7c-4c63-8f78-352a768af104-hermes-stage-assistant-qualite-produits-finis-h-f",
   "https://www.jobteaser.com/en/job-offers/8d67be63-b912-4c1c-98bf-0864d69c0115-ey-consultant-stagiaire-analyste-quantitatif-modelisation-quant-h-f",
   "https://www.jobteaser.com/en/job-offers/8d998cdf-48d9-46eb-9ab4-dd7ea23edf67-societe-generale-analyste-environnemental-et-social",
@@ -964,6 +965,7 @@
   "https://www.jobteaser.com/en/job-offers/9568a512-6c21-4dff-95fa-10ae7df8fd4d-kpmg-france-consultant-stagiaire-en-risques-et-conformite-des-entreprises-f-h",
   "https://www.jobteaser.com/en/job-offers/957ca76a-0f4d-45cf-9ecf-a448da70d30f-acted-france-stagiaire-logistique-en-ong-paris",
   "https://www.jobteaser.com/en/job-offers/9582d135-1a8b-4be5-9841-7f72d311e8bd-abeille-assurances-developpeur-java-angular-applications-internet-du-digital-stage-f-h",
+  "https://www.jobteaser.com/en/job-offers/95ad86f5-924d-40ac-87f8-4a17153d030e-dreamcast-offre-de-stage-assistant-e-editorial-e-creator-economy-formats-courts",
   "https://www.jobteaser.com/en/job-offers/95bd8125-3e8a-4147-b65f-88e967a685ac-groupe-rocher-stage-mobilisation-communication-rse",
   "https://www.jobteaser.com/en/job-offers/95d20dde-212a-4b04-aa15-0d2a215520ef-veepee-stage-assistant-e-support-marque-h-f-x-janvier-2027",
   "https://www.jobteaser.com/en/job-offers/960b98e0-7602-4a6a-83e5-7ae8a8b8c38e-veolia-vesa-stage-deploiement-de-l-outil-de-suivi-de-la-performance-metha-vision-h-f",
@@ -1077,6 +1079,7 @@
   "https://www.jobteaser.com/en/job-offers/b1885542-6429-46ad-a537-e4ade23acdad-fti-consulting-2027-intern-economic-financial-consulting",
   "https://www.jobteaser.com/en/job-offers/b18b4bbf-3403-40d8-9767-b9d4f10e774e-wiremind-data-engineer-m-f-internship-paris",
   "https://www.jobteaser.com/en/job-offers/b1c37bfb-afd8-4418-8ee8-e1846215e2de-deloitte-france-stage-consultant-ia-business-transformation-f-h",
+  "https://www.jobteaser.com/en/job-offers/b1d3a682-1e0d-4746-a35f-76e2a793cd1e-hsbc-continental-europe-stage-assistant-legal-counsel-f-m-d",
   "https://www.jobteaser.com/en/job-offers/b200fce6-e255-48ee-a83e-4beb40a147ef-finary-stage-monteur-video",
   "https://www.jobteaser.com/en/job-offers/b20409c3-9c95-4661-a268-ce7a2ae14ff6-veepee-stage-account-manager-brandsplace-vins-spiritueux-h-f-x-janvier-2027",
   "https://www.jobteaser.com/en/job-offers/b21ba558-f0b8-4f0c-b233-16e3c06fe688-credit-agricole-cib-analyste-environmental-transition-group-h-f",
@@ -1215,6 +1218,7 @@
   "https://www.jobteaser.com/en/job-offers/d281efcb-c124-41ca-9145-4a24e538a0e8-axa-partners-france-stage-business-data-analyst-h-f",
   "https://www.jobteaser.com/en/job-offers/d2b11df7-e754-4635-a3de-3f1b6f6c4049-laboratoire-svr-stage-de-6-mois-assistant-e-chef-de-projet-trade-marketing-france-lazartigue-janvier-2027",
   "https://www.jobteaser.com/en/job-offers/d32f3546-1f97-4d6f-b191-8fb5328eec5c-choose-stage-chef-fe-de-projet-e-merchandising",
+  "https://www.jobteaser.com/en/job-offers/d388848a-bf5e-40af-8e96-734c8f97be2b-bpifrance-stage-charge-d-affaires-international-junior-f-h",
   "https://www.jobteaser.com/en/job-offers/d38a0d63-f837-4780-8062-9af0f41fead5-deloitte-france-stage-consultant-scientifique-financement-de-l-innovation-secteurs-chimie-biologie-agro-f-h",
   "https://www.jobteaser.com/en/job-offers/d42092d5-4482-4b11-8a02-4e0b9056fcad-banque-de-france-stage-analyste-quantitatif-fx-h-f",
   "https://www.jobteaser.com/en/job-offers/d42e3332-d745-47d8-9693-9e5b13de72d8-banque-de-france-stage-controleur-bancaire-h-f",
