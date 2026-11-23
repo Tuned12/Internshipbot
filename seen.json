@@ -25,6 +25,7 @@
   "https://careers.societegenerale.com/offres-d-emploi/stage-support-onboarding-clients-26000N5G-fr"
  ],
  "Natixis / BPCE": [
+  "https://recrutement.natixis.com/job/stage-6-mois-analyste-credit-corporate-mid-large-cap-f-h",
   "https://recrutement.natixis.com/job/stage-6-mois-analyste-fonds-dinvestissement-immobiliers-f-h",
   "https://recrutement.natixis.com/job/stage-6-mois-analyste-quantitatif-multi-actifs-prives-f-h",
   "https://recrutement.natixis.com/job/stage-6-mois-analyste-quantitatif-stress-tests-f-h",
@@ -149,6 +150,7 @@
   "https://tikehau-capital-career.talentview.io/jobs/pho9fa?source=site_entreprise&utm_source=site_entreprise&coopt=on",
   "https://tikehau-capital-career.talentview.io/jobs/q3vz1i?source=site_entreprise&utm_source=site_entreprise&coopt=on",
   "https://tikehau-capital-career.talentview.io/jobs/qurcam?source=site_entreprise&utm_source=site_entreprise&coopt=on",
+  "https://tikehau-capital-career.talentview.io/jobs/sqs2ho?source=site_entreprise&utm_source=site_entreprise&coopt=on",
   "https://tikehau-capital-career.talentview.io/jobs/uq4fxc?source=site_entreprise&utm_source=site_entreprise&coopt=on",
   "https://tikehau-capital-career.talentview.io/jobs/yzus2b?source=site_entreprise&utm_source=site_entreprise&coopt=on",
   "https://tikehau-capital-career.talentview.io/jobs/z6kba5?source=site_entreprise&utm_source=site_entreprise&coopt=on"
@@ -159,7 +161,9 @@
  "Alven": [
   "https://www.welcometothejungle.com/fr/companies/virgil/jobs/bras-droit-ceo-stage_paris_VIRGI_1ANLomd"
  ],
- "_fail": {},
+ "_fail": {
+  "JobTeaser": 1
+ },
  "Crédit Agricole": [
   "https://groupecreditagricole.jobs/fr/developpez-votre-carriere/votre-profil/stage/",
   "https://groupecreditagricole.jobs/fr/developpez-votre-carriere/votre-profil/un-stage-de-3eme/",
@@ -190,6 +194,7 @@
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage---analyste-proposition-client-hf-reference--2026-116250--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage---assistant-specialiste-produit--gestions-actions-hf-reference--2026-117046--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage---charge-de-reponses-aux-appels-d-offres-stage-hf-reference--2026-117084--/",
+  "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage---client-insights-analyst-hf-reference--2026-117684--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage---finance-de-marche---structuration-et-innovation-produit-etf-et-indiciel-hf-reference--2026-117097--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage---intitule-du-poste-assistant-coordinateur-risques-et-surveillance-permanente-middle-office-hf-reference--2026-117402--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage---pilotage-des-couts-des-asset-servicers--asset-servicing-invoicing-hf-reference--2026-117411--/",
@@ -198,6 +203,7 @@
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage-ingenierie-financiere-hf-reference--2026-117674--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage-marketing-content---ia-et-automatisation-hf-reference--2026-116950--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage-ocio--solutions---advisory-gestion-diversifiee-hf-reference--2026-117043--/",
+  "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stagiaire-data-hf-reference--2026-115015--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stagiaire-it-middle-office--agents-ia-pour-le-support-et-les-tests-de-non-regression-alto-hf-reference--2026-117472--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stagiaire-product-development-et-business-coordination-hf-reference--2026-117413--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-124-stage---analyste-stagiaire--capital-naturel-hf-reference--2026-117405--/",
@@ -253,8 +259,10 @@
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-assistant-middle-office-dette-privee-h-f_117397.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-assistant-officer-delivery-operation-governance-h-f_117524.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-assistant-sales-strategy-distribution-wealth-h-f_117476.aspx",
+  "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-business-analyst-moa-gestion-it-front-office-project-h-f_117692.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-business-controller-h-f_117060.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-charge-de-processus-operationnels-h-f_117469.aspx",
+  "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-client-insights-analyst-h-f_117684.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-communication-visuelle-formation-en-epargne-salariale-et-retraite-h-f_113340.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-compliance-officer-h-f_117067.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-dev-full-stack-h-f_117498.aspx",
@@ -281,6 +289,7 @@
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-project-corporate-governance-6-12-mois-h-f_117529.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-quantitative-researcher-h-f_117667.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stagiaire-ai-compliance-h-f_117322.aspx",
+  "https://www.jobs.amundi.com/offre-de-emploi/emploi-stagiaire-data-h-f_115015.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stagiaire-data-science-ia-h-f_113923.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stagiaire-en-developpement-informatique-h-f_117668.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stagiaire-product-development-business-coordination-h-f_117413.aspx"
