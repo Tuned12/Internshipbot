@@ -30,6 +30,7 @@
   "https://recrutement.natixis.com/job/stage-6-mois-analyste-quantitatif-stress-tests-f-h",
   "https://recrutement.natixis.com/job/stage-6-mois-analyste-risques-f-h",
   "https://recrutement.natixis.com/job/stage-6-mois-assistant-analyste-covered-bonds-f-h",
+  "https://recrutement.natixis.com/job/stage-6-mois-assistant-gerant-conseil-f-h",
   "https://recrutement.natixis.com/job/stage-6-mois-assistant-syndication-obligataire-f-h",
   "https://recrutement.natixis.com/job/stage-6-mois-assistant-trader-tresorerie-lt-f-h",
   "https://recrutement.natixis.com/job/stage-6-mois-calculation-agent-assistant-f-h",
@@ -159,7 +160,7 @@
   "https://www.welcometothejungle.com/fr/companies/virgil/jobs/bras-droit-ceo-stage_paris_VIRGI_1ANLomd"
  ],
  "_fail": {
-  "JobTeaser": 12
+  "JobTeaser": 13
  },
  "Crédit Agricole": [
   "https://groupecreditagricole.jobs/fr/developpez-votre-carriere/votre-profil/stage/",
@@ -196,6 +197,7 @@
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage---pilotage-des-couts-des-asset-servicers--asset-servicing-invoicing-hf-reference--2026-117411--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage--investment-et-product-strategy-etf-et-indexing--index-et-mandates-hf-reference--2026-117305--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage-en-finance-et-business-pilotage-et-suivi-commercial-hf-reference--2026-117045--/",
+  "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage-ingenierie-financiere-hf-reference--2026-117674--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage-marketing-content---ia-et-automatisation-hf-reference--2026-116950--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage-ocio--solutions---advisory-gestion-diversifiee-hf-reference--2026-117043--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stagiaire-it-middle-office--agents-ia-pour-le-support-et-les-tests-de-non-regression-alto-hf-reference--2026-117472--/",
@@ -267,6 +269,7 @@
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-gestion-sous-mandat-assistant-gerant-h-f_117530.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-gestionnaire-administratif-h-f_117467.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-gestionnaire-administratif-h-f_117501.aspx",
+  "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-ingenierie-financiere-h-f_117674.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-intitule-du-poste-assistant-coordinateur-risques-surveillance-permanente-middle-office-h-f_117402.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-investment-ai-automation-intern-h-f_117507.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-investment-product-strategy-etf-indexing-index-mandates-h-f_117305.aspx",
@@ -281,6 +284,7 @@
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-quantitative-researcher-h-f_117667.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stagiaire-ai-compliance-h-f_117322.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stagiaire-data-science-ia-h-f_113923.aspx",
+  "https://www.jobs.amundi.com/offre-de-emploi/emploi-stagiaire-en-developpement-informatique-h-f_117668.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stagiaire-product-development-business-coordination-h-f_117413.aspx"
  ],
  "Bpifrance": [
@@ -295,6 +299,7 @@
   "https://talents.bpifrance.fr/opportunites/analyste-vc-sante-large-venture-f-h/?id=9962-93",
   "https://talents.bpifrance.fr/opportunites/analyste-venture-capital-vc-digital-health-fonds-patient-autonome-f-h/?id=9957-66",
   "https://talents.bpifrance.fr/opportunites/charge-d-affaires-international-junior-f-h/?id=10050-91",
+  "https://talents.bpifrance.fr/opportunites/charge-d-analyses-tresorerie-f-h/?id=9994-21",
   "https://talents.bpifrance.fr/opportunites/charge-d-etudes-f-h-14/?id=10133-40",
   "https://talents.bpifrance.fr/opportunites/charge-d-etudes-f-h-4/?id=10152-43",
   "https://talents.bpifrance.fr/opportunites/charge-de-developpement-du-fonds-bpifrance-defense-f-h/?id=10237-42",
