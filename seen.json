@@ -165,7 +165,9 @@
  "Alven": [
   "https://www.welcometothejungle.com/fr/companies/virgil/jobs/bras-droit-ceo-stage_paris_VIRGI_1ANLomd"
  ],
- "_fail": {},
+ "_fail": {
+  "JobTeaser": 1
+ },
  "Crédit Agricole": [
   "https://groupecreditagricole.jobs/fr/developpez-votre-carriere/votre-profil/stage/",
   "https://groupecreditagricole.jobs/fr/developpez-votre-carriere/votre-profil/un-stage-de-3eme/",
@@ -314,6 +316,7 @@
   "https://talents.bpifrance.fr/nos-opportunites/?criteres=stage",
   "https://talents.bpifrance.fr/opportunites/analyste-biotech-f-h/?id=9944-19",
   "https://talents.bpifrance.fr/opportunites/analyste-credit-export-f-h/?id=10112-85",
+  "https://talents.bpifrance.fr/opportunites/analyste-french-touch-capital-f-h/?id=10157-17",
   "https://talents.bpifrance.fr/opportunites/analyste-investissement-actifs-numeriques-f-h/?id=10259-42",
   "https://talents.bpifrance.fr/opportunites/analyste-investissement-f-h/?id=10188-18",
   "https://talents.bpifrance.fr/opportunites/analyste-large-venture-f-h/?id=9971-49",
