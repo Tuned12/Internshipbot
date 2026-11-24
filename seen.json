@@ -23,6 +23,8 @@
   "https://careers.societegenerale.com/en/vie",
   "https://careers.societegenerale.com/offres-d-emploi/stage-assistant-banquier-patrimonial-224-fr",
   "https://careers.societegenerale.com/offres-d-emploi/stage-assistant-banquier-prive-216-fr",
+  "https://careers.societegenerale.com/offres-d-emploi/stage-assistant-banquier-prive-359-fr",
+  "https://careers.societegenerale.com/offres-d-emploi/stage-banquier-patrimonial-358-fr",
   "https://careers.societegenerale.com/offres-d-emploi/stage-conseiller-clientele-particulier-169-fr",
   "https://careers.societegenerale.com/offres-d-emploi/stage-conseiller-clientele-particulier-172-fr",
   "https://careers.societegenerale.com/offres-d-emploi/stage-etude-dactifs-financiers-26000NUL-fr",
@@ -43,6 +45,7 @@
   "https://recrutement.natixis.com/job/stage-6-mois-credit-risk-real-estate-f-h",
   "https://recrutement.natixis.com/job/stage-6-mois-developpement-durable-f-h",
   "https://recrutement.natixis.com/job/stage-6-mois-gestionnaire-reconciliation-f-h",
+  "https://recrutement.natixis.com/job/stage-6-mois-gestionnaire-settlement-secondaire-primaire-f-h",
   "https://recrutement.natixis.com/job/stage-6-mois-gestionnaire-structured-commodities-agency-f-h",
   "https://recrutement.natixis.com/job/stage-6-mois-market-operations-triparty-liquidity-management-f-h",
   "https://recrutement.natixis.com/job/stage-6-mois-market-operations-triparty-stock-loan-management-f-h",
@@ -166,7 +169,7 @@
   "https://www.welcometothejungle.com/fr/companies/virgil/jobs/bras-droit-ceo-stage_paris_VIRGI_1ANLomd"
  ],
  "_fail": {
-  "JobTeaser": 1
+  "JobTeaser": 2
  },
  "Crédit Agricole": [
   "https://groupecreditagricole.jobs/fr/developpez-votre-carriere/votre-profil/stage/",
