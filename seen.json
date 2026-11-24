@@ -161,9 +161,7 @@
  "Alven": [
   "https://www.welcometothejungle.com/fr/companies/virgil/jobs/bras-droit-ceo-stage_paris_VIRGI_1ANLomd"
  ],
- "_fail": {
-  "Rothschild & Co": 1
- },
+ "_fail": {},
  "Crédit Agricole": [
   "https://groupecreditagricole.jobs/fr/developpez-votre-carriere/votre-profil/stage/",
   "https://groupecreditagricole.jobs/fr/developpez-votre-carriere/votre-profil/un-stage-de-3eme/",
@@ -365,6 +363,7 @@
   "https://www.jobteaser.com/en/job-offers/01092d64-087e-43f6-bbb3-c1decf4f0e9e-chanel-stage-assistant-communication-interne-h-f-x-manufactures-de-mode",
   "https://www.jobteaser.com/en/job-offers/010ce0ba-7a5b-4521-994e-ceeaad079233-bouygues-batiment-france-stage-responsable-developpement-immobilier-77-94-1",
   "https://www.jobteaser.com/en/job-offers/01b088fe-f7f1-4f74-951d-c214dff15568-covea-finance-stagiaire-assistant-communication-h-f",
+  "https://www.jobteaser.com/en/job-offers/01bba460-2837-4a47-b20e-3967c8471d48-valeo-stage-controleur-de-gestion",
   "https://www.jobteaser.com/en/job-offers/01bf04d1-fbb5-4a62-8834-ee89e3f09f52-guerlain-stage-assistant-chef-de-projet-art-culture-patrimoine",
   "https://www.jobteaser.com/en/job-offers/01dda450-7f36-472a-8053-66754d69f3b9-mata-capital-fund-controller-analyst-stage",
   "https://www.jobteaser.com/en/job-offers/01e8b2d0-1882-429e-9c8f-f793a80ff379-cgi-stage-conseil-consultant-e-en-management-f-h",
@@ -914,6 +913,7 @@
   "https://www.jobteaser.com/en/job-offers/7947c9b9-9308-4b18-8c65-729c83745397-societe-generale-charge-de-financement-et-de-conseil-durables",
   "https://www.jobteaser.com/en/job-offers/7954e89b-8170-4686-b02a-fb5076dcbe77-accor-brand-strategy-marketing-assistant-novotel-ena-internship",
   "https://www.jobteaser.com/en/job-offers/79784d67-6b44-452b-a058-049692a9fe2e-societe-generale-gestionnaire-administratif",
+  "https://www.jobteaser.com/en/job-offers/798cacae-0177-4a64-823b-6ed7eeb9de76-valeo-stagiaire-r-i-optique-laser-plm",
   "https://www.jobteaser.com/en/job-offers/79af39e3-63fa-4875-a560-72f4ea0d52b3-credit-agricole-cib-assistant-e-projets-transverses-h-f",
   "https://www.jobteaser.com/en/job-offers/79e19f43-b9c2-4352-897b-c26b067beac7-shiseido-emea-stage-assistant-chef-de-produit-marketing-developpement-parfums-issey-miyake-h-f",
   "https://www.jobteaser.com/en/job-offers/7a3721dc-b7b7-40aa-8af0-e4dc65018f57-danone-internship-global-media-digital-data-july-2026-m-f",
@@ -1084,6 +1084,7 @@
   "https://www.jobteaser.com/en/job-offers/9e1c1aa9-8790-4c1b-9c7a-3a14958d4427-dior-assistant-chef-de-projet-tracabilite-pret-a-porter-h-f-stage",
   "https://www.jobteaser.com/en/job-offers/9e4d221c-42f6-4978-85e0-958f6d7b01dd-dior-assistant-chef-de-projet-formation-retail-univers-femme-f-h-stage",
   "https://www.jobteaser.com/en/job-offers/9eadabc9-2811-4777-84a8-4e6801e9625d-thales-stage-ingenieur-modelisation-electromagnetique-f-h",
+  "https://www.jobteaser.com/en/job-offers/9ed52d60-9c41-4b62-9213-c3540d9f72ec-bnp-paribas-asset-management-stage-strategic-partnership-office-h-f",
   "https://www.jobteaser.com/en/job-offers/9f00cb7f-062d-4102-a36f-9624b68fcd6c-accor-stage-departement-developpement-ennismore-europe-h-f-nb",
   "https://www.jobteaser.com/en/job-offers/9f03fe0b-fb29-43ca-9e2e-60ec4b74a78e-lvmh-holding-stage-product-owner-ai-people-experience-mars-2027",
   "https://www.jobteaser.com/en/job-offers/9f4076b2-42e2-43cc-855c-67cbfac99055-bpifrance-stage-charge-de-communication-editoriale-et-developpement-de-marque-bpifrance-le-lab-f-h",
@@ -1193,6 +1194,7 @@
   "https://www.jobteaser.com/en/job-offers/b6ada67a-ff02-48e2-8ca8-7499e3ad0918-nestle-stage-chef-de-projet-it-marketing-et-sales-f-h",
   "https://www.jobteaser.com/en/job-offers/b6e879e3-94d5-48cd-82d4-0b9a47e67ae4-banque-de-france-stage-modelisateur-data-analyst-risque-de-credit-et-risque-climatique-h-f",
   "https://www.jobteaser.com/en/job-offers/b775c1b2-3ca8-4a17-b2ae-0ab4925e9577-societe-generale-analyste-risque-de-credit",
+  "https://www.jobteaser.com/en/job-offers/b78b0339-9ad6-46b7-b18e-f43338f0e683-valeo-stagiaire-analyste-strategie-it",
   "https://www.jobteaser.com/en/job-offers/b7b994e9-6564-41d6-90c2-61b88369e787-autorite-des-marches-financiers-amf-stage-analyste-direction-des-donnees-et-de-la-surveillance-h-f",
   "https://www.jobteaser.com/en/job-offers/b812f05f-54df-4f36-aada-c64939f255a2-guerlain-stage-assistant-visual-merchandising-europe",
   "https://www.jobteaser.com/en/job-offers/b81330ef-a4f4-47b2-a964-ffdcd180df8c-startups-backed-by-xange-vc-lifeaz-medtech-stagiaire-ingenieur-data-ops-stage-de-fin-d-etude-h-f",
@@ -1297,6 +1299,7 @@
   "https://www.jobteaser.com/en/job-offers/ccc2536c-153b-46c5-a956-147e9bea5fa1-vialto-stagiaire-en-mobilite-internationale",
   "https://www.jobteaser.com/en/job-offers/ccecd404-f3f8-44ef-b76d-68f3719d8492-parfums-christian-dior-stage-assistant-e-chef-de-produit-parfums-soin-travel-retail-marketing-operationnel-janvier-2027",
   "https://www.jobteaser.com/en/job-offers/cd69e3ab-a664-4849-be8e-3c3b9dee50dc-air-liquide-stage-gestion-des-incidents-it-f-h",
+  "https://www.jobteaser.com/en/job-offers/cd7327a2-12ea-405d-97c5-e5272f8e64f7-cgi-stage-conseil-consultant-e-retail-luxe-life-sciences-f-h",
   "https://www.jobteaser.com/en/job-offers/cdfc73f4-e917-4556-a008-33120b05ea95-bnp-paribas-france-stage-charge-de-projets-digitaux-h-f",
   "https://www.jobteaser.com/en/job-offers/cdfe1635-9d3d-46c0-a030-611f73c81868-amundi-stage-dev-full-stack-h-f",
   "https://www.jobteaser.com/en/job-offers/ce0a7936-d86a-45eb-a3a4-3bebb7a3b26c-natixis-stage-6-mois-product-owner-lcnc-data-f-h",
@@ -1304,6 +1307,7 @@
   "https://www.jobteaser.com/en/job-offers/cea90b49-b384-4577-9176-b48fb177a514-saint-laurent-saint-laurent-stagiaire-assistant-collection-merchandiser-rive-droite",
   "https://www.jobteaser.com/en/job-offers/ced815f4-1f22-4eab-905e-c4d739fd82a4-kpmg-france-consultant-stagiaire-finance-strategy-transformation-f-h",
   "https://www.jobteaser.com/en/job-offers/ced8848a-2a09-4c68-99b3-fac276373237-dior-assistant-retail-performance-europe-f-h-stage",
+  "https://www.jobteaser.com/en/job-offers/cf4440c1-2e5f-4261-b23d-db9e9fb645c2-cgi-stage-consultant-e-automatisation-de-tests-et-rpa-f-h",
   "https://www.jobteaser.com/en/job-offers/cffc1006-7a4e-4be2-85db-27af0a14c074-sezane-stage-assistant-e-demand-planner-h-f",
   "https://www.jobteaser.com/en/job-offers/d03ee805-e2dc-4338-9b9c-b850e8fd0f23-vinci-construction-stage-conduite-de-travaux-meudon-92-f-h",
   "https://www.jobteaser.com/en/job-offers/d09abbf0-477b-422c-8e90-f9e295519825-hermes-stage-assistant-qualite-douane-pole-mode-h-f",
@@ -1344,6 +1348,7 @@
   "https://www.jobteaser.com/en/job-offers/d8e7893b-4311-45c4-852c-ad5473f28b9e-barilla-group-stage-demand-planner-6-mois-paris",
   "https://www.jobteaser.com/en/job-offers/d9001b4a-ab1e-4d2f-8b73-cd39b4519146-chanel-goossens-stagiaire-assistant-e-chef-fe-de-projet-e-commerce-h-f-x",
   "https://www.jobteaser.com/en/job-offers/d9051489-664b-48f4-8a37-020f5e6cf515-axa-en-france-charge-de-projet-expertise-metier-f-h-stage",
+  "https://www.jobteaser.com/en/job-offers/d9152fd4-79ef-4c1b-af10-7c94eb079f57-cgi-stage-conseil-consultant-e-secteur-public-industrie-de-defense-f-h",
   "https://www.jobteaser.com/en/job-offers/d95c71cd-370d-447c-b0af-95bef8baf9fc-bnp-paribas-france-stage-it-operational-risk-officer-h-f",
   "https://www.jobteaser.com/en/job-offers/d9774394-934a-4a8c-ab66-4430d6c63c7f-kpmg-france-stagiaire-ingenieur-audit-financier-f-h",
   "https://www.jobteaser.com/en/job-offers/d9866a25-f792-4ab5-a581-b062086549e1-bnp-paribas-france-stage-assistant-business-development-officer-h-f",
