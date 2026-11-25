@@ -173,9 +173,7 @@
  "Alven": [
   "https://www.welcometothejungle.com/fr/companies/virgil/jobs/bras-droit-ceo-stage_paris_VIRGI_1ANLomd"
  ],
- "_fail": {
-  "JobTeaser": 1
- },
+ "_fail": {},
  "Crédit Agricole": [
   "https://groupecreditagricole.jobs/fr/developpez-votre-carriere/votre-profil/stage/",
   "https://groupecreditagricole.jobs/fr/developpez-votre-carriere/votre-profil/un-stage-de-3eme/",
@@ -595,6 +593,7 @@
   "https://www.jobteaser.com/en/job-offers/225dade8-43bf-4cea-bc8c-ff302057e78a-bdo-france-stagiaire-en-droit-social-f-h-juil-2027",
   "https://www.jobteaser.com/en/job-offers/227bbdb9-d72d-4733-beed-4178ab502712-credit-agricole-cib-assistant-commercial-trade-finance-h-f",
   "https://www.jobteaser.com/en/job-offers/2314613b-52a9-4f41-8c5a-0bbf81d0e6ab-orano-charge-e-de-recrutement-et-projets-rh-f-h",
+  "https://www.jobteaser.com/en/job-offers/23cb8d12-6a62-4bfe-9b0b-062161aae170-topivo-plenitude-arena-stage-assistant-chef-de-projet-r-d-produit-restauration-grand-public-evenementiel-f-h",
   "https://www.jobteaser.com/en/job-offers/243a7b2c-7f26-4475-a387-5b48a65f3502-wiremind-ai-engineer-internal-workflows-h-f-stage-paris",
   "https://www.jobteaser.com/en/job-offers/245edfd8-cc2a-42a9-a709-68e77d0804a2-bnp-paribas-france-stage-chef-de-projet-h-f",
   "https://www.jobteaser.com/en/job-offers/2478cba4-d7c5-4866-9240-d5e2810bec9a-bpifrance-stage-juriste-contentieux-f-h",
@@ -671,6 +670,7 @@
   "https://www.jobteaser.com/en/job-offers/33b11576-ae24-4721-896f-a2ba038cbec1-bouygues-batiment-france-stage-de-fin-d-etudes-conducteur-de-travaux-conductrice-de-travaux",
   "https://www.jobteaser.com/en/job-offers/34547bef-76b4-46ff-9efc-f9a732766c66-thales-stage-ecosysteme-d-ia-pour-les-tests-de-systemes-satellitaires-f-h",
   "https://www.jobteaser.com/en/job-offers/347c4810-7bd9-4d43-ac0e-5020da13659a-guerlain-stage-assistant-developpement-marketing-parfum",
+  "https://www.jobteaser.com/en/job-offers/348732e8-1cb3-4b8c-a352-15485080e3f8-2pace-consultant-salesforce",
   "https://www.jobteaser.com/en/job-offers/34b44fbc-c0e4-409b-b0e5-d983745324b8-chanel-stage-assistant-conseiller-beaute-h-f-sud-est",
   "https://www.jobteaser.com/en/job-offers/34d2baff-1b9b-46dd-9cc4-5884da6ec46d-vinci-construction-charge-e-de-mission-environnement-f-h",
   "https://www.jobteaser.com/en/job-offers/353cd96c-68b7-4956-ba95-d5a32394dbe3-deloitte-france-stagiaire-risk-advisory-investment-management-f-h",
@@ -954,6 +954,7 @@
   "https://www.jobteaser.com/en/job-offers/6a290673-57d9-422f-b694-23121d4d0c63-edmond-de-rothschild-stage-controleur-interne-et-charge-de-conformite-h-f",
   "https://www.jobteaser.com/en/job-offers/6aa9e243-7f6f-49d3-8932-294e1d5636f3-lbp-am-stage-analyste-esg-et-finance-durable-h-f",
   "https://www.jobteaser.com/en/job-offers/6abff7b3-e4aa-41f0-b633-8ff05a9d90bb-sephora-stage-assistant-e-juriste-droit-commercial-f-h-x",
+  "https://www.jobteaser.com/en/job-offers/6ad71d27-0b82-4c2d-97fa-6ad4f3ee4bbc-procter-gamble-france-data-automation-specialist-intern",
   "https://www.jobteaser.com/en/job-offers/6b456aec-1f03-4ce8-865e-9142a151e657-bpifrance-stage-assistant-sirh-f-h",
   "https://www.jobteaser.com/en/job-offers/6b4d16a3-c2d5-47ea-b7b6-f2a649b4a61e-galeries-lafayette-stage-charge-d-optimisation-commerciale-f-h",
   "https://www.jobteaser.com/en/job-offers/6b533f0c-e357-4402-ab8e-4c3bd22c0e1e-brasseries-kronenbourg-stage-assistant-category-manager-gms-f-h",
@@ -1228,6 +1229,7 @@
   "https://www.jobteaser.com/en/job-offers/9e1c1aa9-8790-4c1b-9c7a-3a14958d4427-dior-assistant-chef-de-projet-tracabilite-pret-a-porter-h-f-stage",
   "https://www.jobteaser.com/en/job-offers/9e4d221c-42f6-4978-85e0-958f6d7b01dd-dior-assistant-chef-de-projet-formation-retail-univers-femme-f-h-stage",
   "https://www.jobteaser.com/en/job-offers/9eadabc9-2811-4777-84a8-4e6801e9625d-thales-stage-ingenieur-modelisation-electromagnetique-f-h",
+  "https://www.jobteaser.com/en/job-offers/9ec25edf-3d11-4016-b7e6-99b099c6e396-kpmg-france-stagiaire-avocat-corporate-m-a-f-h",
   "https://www.jobteaser.com/en/job-offers/9ed52d60-9c41-4b62-9213-c3540d9f72ec-bnp-paribas-asset-management-stage-strategic-partnership-office-h-f",
   "https://www.jobteaser.com/en/job-offers/9f00cb7f-062d-4102-a36f-9624b68fcd6c-accor-stage-departement-developpement-ennismore-europe-h-f-nb",
   "https://www.jobteaser.com/en/job-offers/9f03fe0b-fb29-43ca-9e2e-60ec4b74a78e-lvmh-holding-stage-product-owner-ai-people-experience-mars-2027",
@@ -1367,6 +1369,7 @@
   "https://www.jobteaser.com/en/job-offers/b82ce4b1-8f70-4f71-b3ef-eded6a67c2af-accenture-stage-consultant-architecture-industry-strategy-paris",
   "https://www.jobteaser.com/en/job-offers/b84050ea-b161-45db-9e7e-be37c0dccc2f-canal-group-stage-assistante-assistant-contenus-digitaux-cinema-f-h-x",
   "https://www.jobteaser.com/en/job-offers/b8937a8d-4db9-421b-84fd-5cbe9e274cec-dior-assistant-supply-distribution-planner-souliers-femme-homme-f-h-stage",
+  "https://www.jobteaser.com/en/job-offers/b8e309bb-5db1-4014-8d9c-f62a3ec555be-kpmg-france-stagiaire-avocat-droit-public-f-h",
   "https://www.jobteaser.com/en/job-offers/b940303f-4951-4a56-a58a-7f07d5937338-innov8-group-assistant-e-chef-de-produit-h-f-stage",
   "https://www.jobteaser.com/en/job-offers/b95734ca-fdf8-44fb-8954-7a2306ddb66d-deloitte-france-stage-support-it-f-h",
   "https://www.jobteaser.com/en/job-offers/b9adc5fb-3126-4fd3-a150-77aca82cfc91-axionable-stagiaire-de-fin-d-etudes-business-dev-ia-et-esg",
@@ -1706,6 +1709,7 @@
   "https://www.jobteaser.com/en/job-offers/f6f87cd1-d083-4eaa-91bc-b1292da8e52e-chanel-stage-assistant-ia-agentic-pour-l-employee-experience-parfums-beaute-f-h-x-mars-2027",
   "https://www.jobteaser.com/en/job-offers/f77e5509-f4b1-4ad1-9b6a-2583840ca402-veepee-stage-designer-digital-f-h-x-janvier-2027",
   "https://www.jobteaser.com/en/job-offers/f7982b76-9b47-4c68-ba04-b4af218ba623-dugas-stage-brand-management-rhums-arranges-ou-clan-campbell-janvier-2027",
+  "https://www.jobteaser.com/en/job-offers/f7a06b6c-1ed2-421a-8190-7d55cdbf89f6-bayard-stage-charge-de-conformite-rgpd-f-h",
   "https://www.jobteaser.com/en/job-offers/f82c5621-a3b7-499e-b21b-ab7092c10e58-osalia-assistant-e-marketing-et-communication-chez-osalia",
   "https://www.jobteaser.com/en/job-offers/f851ab8a-c92d-44f0-99b1-283eed13d331-capgemini-engineering-ingenieure-ingenieur-ia-et-vision-par-ordinateur-stage",
   "https://www.jobteaser.com/en/job-offers/f87caca6-6af5-4035-8308-3c5f236dd379-abeille-assurances-analyste-gestion-des-identites-et-des-acces-h-f-stage",
