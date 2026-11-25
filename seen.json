@@ -41,6 +41,7 @@
   "https://recrutement.natixis.com/job/stage-6-mois-assistant-syndication-obligataire-f-h",
   "https://recrutement.natixis.com/job/stage-6-mois-assistant-trader-tresorerie-lt-f-h",
   "https://recrutement.natixis.com/job/stage-6-mois-calculation-agent-assistant-f-h",
+  "https://recrutement.natixis.com/job/stage-6-mois-commodity-structured-finance-analyst-f-h",
   "https://recrutement.natixis.com/job/stage-6-mois-controleur-de-gestion-f-h",
   "https://recrutement.natixis.com/job/stage-6-mois-credit-risk-real-estate-f-h",
   "https://recrutement.natixis.com/job/stage-6-mois-developpement-durable-f-h",
@@ -169,7 +170,7 @@
   "https://www.welcometothejungle.com/fr/companies/virgil/jobs/bras-droit-ceo-stage_paris_VIRGI_1ANLomd"
  ],
  "_fail": {
-  "JobTeaser": 3
+  "JobTeaser": 4
  },
  "Crédit Agricole": [
   "https://groupecreditagricole.jobs/fr/developpez-votre-carriere/votre-profil/stage/",
@@ -191,6 +192,7 @@
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-122-stage-au-sein-de-l-equipe-de-modelisation-alm-de-credit-agricole-sa-hf-juin-2027-reference--2026-116451--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-122-stage-au-sein-de-l-equipe-de-modelisation-alm-de-credit-agricole-sa-hf-reference--2026-116450--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-122-stagiaire-analyste-en-financement-collateralise-hf-reference--2026-116454--/",
+  "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-124-stage---assistant-d-administration-de-portefeuille-hf-reference--2026-117798--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-124-stage---gestion-sous-mandat--assistant-gerant-hf-reference--2026-117530--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-124-stage--support-vente-institutionnel-et-digital-hf-reference--2026-112785--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-136-stage---accountant-peres-hf-reference--2026-117126--/",
@@ -208,6 +210,7 @@
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage---charge-de-reponses-aux-appels-d-offres-stage-hf-reference--2026-117084--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage---client-insights-analyst-hf-reference--2026-117684--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage---finance-de-marche---structuration-et-innovation-produit-etf-et-indiciel-hf-reference--2026-117097--/",
+  "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage---ingenierie-quantitative---produit-structures-cross-assets-hf-reference--2026-117795--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage---intitule-du-poste-assistant-coordinateur-risques-et-surveillance-permanente-middle-office-hf-reference--2026-117402--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage---pilotage-des-couts-des-asset-servicers--asset-servicing-invoicing-hf-reference--2026-117411--/",
   "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage--investment-et-product-strategy-etf-et-indexing--index-et-mandates-hf-reference--2026-117305--/",
@@ -266,6 +269,7 @@
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-assistant-chef-de-projet-marketing-institutionnel-h-f_115929.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-assistant-chef-de-projets-evenementiels-h-f_115292.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-assistant-coordination-de-projets-marque-publicite-h-f-_113902.aspx",
+  "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-assistant-d-administration-de-portefeuille-h-f_117798.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-assistant-e-produits-financiers-et-coordination-internationale-en-asset-management-h-f_117404.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-assistant-e-responsable-grands-comptes-gestion-et-pilotage-des-operations-h-f_117478.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-assistant-gerant-actions-thematiques-h-f_115782.aspx",
@@ -296,6 +300,7 @@
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-gestionnaire-administratif-h-f_117467.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-gestionnaire-administratif-h-f_117501.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-ingenierie-financiere-h-f_117674.aspx",
+  "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-ingenierie-quantitative-produit-structures-cross-assets-h-f_117795.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-intitule-du-poste-assistant-coordinateur-risques-surveillance-permanente-middle-office-h-f_117402.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-investment-ai-automation-intern-h-f_117507.aspx",
   "https://www.jobs.amundi.com/offre-de-emploi/emploi-stage-investment-product-strategy-etf-indexing-index-mandates-h-f_117305.aspx",
